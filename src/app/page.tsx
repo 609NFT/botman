@@ -14,7 +14,7 @@ export default function Home() {
         <div className="vertically-center">
           <Image
             src="/yin.png"
-            alt="Vercel Logo"
+            alt="Yin Coin Logo"
             className="rotate"
             width={100}
             height={24}
