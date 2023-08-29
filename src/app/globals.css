@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
 
 
 .rotate{
   animation: rotation infinite 3s linear;
-  margin-top:250px;
-  box-shadow: 0 0 30px 15px black;
+  margin-top:200px;
+  box-shadow: 0 0 60px 10px black;
   border-radius: 50px;
 }
 
@@ -20,7 +21,14 @@
   }
 }
 
+.message{
+  margin-top: 50px;
+  /*font-family: 'Phudu-ExtraBold';*/
+  font-weight: 200;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #E4D8C7;
+  text-align: center;
 }
