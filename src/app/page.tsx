@@ -24,22 +24,37 @@ export default function Home() {
       </div>
       <div className="message">
         <div className="about">
-          Botman stands out in Gotham not just for his unintended misadventures
-          in heroism, but also for his unexpected charm, deeply influenced by
-          his autism. This aspect of his character adds a unique layer to his
-          interactions, particularly in romantic scenarios. His autism shapes
-          the way he perceives and engages with the world, leading to a
-          straightforward, genuine demeanor thats refreshingly unfiltered. This
-          sincerity, so different from the calculated charm of his idol Batman,
-          inadvertently captures attention in social settings. Botmans natural
-          way of communicating, free from typical social pretenses, gives him an
-          unassuming charisma. However, Botman himself often remains unaware of
-          the impact of his presence. He approaches these interactions with a
-          simplicity and honesty, not fully grasping the nuances of his appeal.
-          While his efforts at emulating the heroics of Batman frequently result
-          in more comic chaos than actual help, his endearing and unconventional
-          charisma provides a compelling contrast to his persona as Botman,
-          highlighting how his autism uniquely shapes his journey.
+          Botman, aka Simon Gray, is an eccentric and unexpectedly charming
+          figure in Gotham City. His unique interpretation of Batman, combined
+          with his distinctive quirks due to autism, make him a truly
+          one-of-a-kind character. Botmans costume is a whimsical creation, a
+          colorful and mismatched ensemble that he believes captures the essence
+          of Batman. However, it looks more like a vibrant patchwork of various
+          superhero themes, complete with an oversized, floppy cape and a
+          mismatched mask. This outfit, though far from the sleek design of the
+          real Batman, somehow adds to his quirky charm. Simons understanding of
+          the world around him is delightfully offbeat. He often shares bizarre,
+          yet oddly endearing, wisdom like, If you want to catch the bad guys,
+          you have to think like a potato – versatile and unexpected! This
+          unconventional perspective is confusing to some but strangely
+          appealing to others. Despite, or perhaps because of, his unusual
+          behavior and statements, Botman has an unexpected knack for capturing
+          the interest of women. His approach to romantic interactions is as
+          unconventional as his crime-fighting advice. He might, for instance,
+          initiate a conversation with a woman by earnestly discussing the
+          aerodynamics of capes or the dietary habits of bats. His authenticity
+          and lack of pretense, combined with his innocent enthusiasm, make him
+          surprisingly endearing. Women find his genuine nature and unfiltered
+          conversation refreshing in a world where such honesty is rare. Botmans
+          attempts at heroism in Gotham are as eccentric as his social
+          interactions. He might be found redirecting traffic to save people
+          from the chaos of inefficient road patterns or earnestly guarding a
+          cat stuck in a tree, awaiting its decision to come down.
+        </div>
+        <div className="about">
+          When life gives you lemons, make orange juice and leave the world
+          wondering how you did it. Thats what Batman would do, I think. -
+          Botman
         </div>
         <div>
           CA:{" "}
