@@ -33,23 +33,21 @@ export default function Home() {
           superhero themes, complete with an oversized, floppy cape and a
           mismatched mask. This outfit, though far from the sleek design of the
           real Batman, somehow adds to his quirky charm. Simons understanding of
-          the world around him is delightfully offbeat. He often shares bizarre,
-          yet oddly endearing, wisdom like, If you want to catch the bad guys,
-          you have to think like a rock – versatile and unexpected! This
-          unconventional perspective is confusing to some but strangely
-          appealing to others. Despite, or perhaps because of, his unusual
-          behavior and statements, Botman has an unexpected knack for capturing
-          the interest of women. His approach to romantic interactions is as
-          unconventional as his crime-fighting advice. He might, for instance,
-          initiate a conversation with a woman by earnestly discussing the
-          aerodynamics of capes or the dietary habits of bats. His authenticity
-          and lack of pretense, combined with his innocent enthusiasm, make him
-          surprisingly endearing. Women find his genuine nature and unfiltered
-          conversation refreshing in a world where such honesty is rare. Botmans
-          attempts at heroism in Gotham are as eccentric as his social
-          interactions. He might be found redirecting traffic to save people
-          from the chaos of inefficient road patterns or earnestly guarding a
-          cat stuck in a tree, awaiting its decision to come down.
+          the world around him is offbeat. This unconventional perspective is
+          confusing to some but strangely appealing to others. Despite, or
+          perhaps because of, his unusual behavior and statements, Botman has an
+          unexpected knack for capturing the interest of women. His approach to
+          romantic interactions is as unconventional as his crime-fighting
+          advice. He might, for instance, initiate a conversation with a woman
+          by earnestly discussing the aerodynamics of capes or the dietary
+          habits of bats. His authenticity and lack of pretense, combined with
+          his innocent enthusiasm, make him surprisingly endearing. Women find
+          his genuine nature and unfiltered conversation refreshing in a world
+          where such honesty is rare. Botmans attempts at heroism in Gotham are
+          as eccentric as his social interactions. He might be found redirecting
+          traffic to save people from the chaos of inefficient road patterns or
+          earnestly guarding a cat stuck in a tree, awaiting its decision to
+          come down.
         </div>
         <div className="about">
           When life gives you lemons, make orange juice and leave the world
