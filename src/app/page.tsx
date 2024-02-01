@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
       <div className="message">
-        <div>BALANCING THE WORLD.</div>
+        <div>BOTMAN.</div>
         <div>UTILIZING THE TOKEN 2022 STANDARD ON SOLANA.</div>
       </div>
     </div>
