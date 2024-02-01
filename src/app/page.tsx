@@ -24,29 +24,22 @@ export default function Home() {
       </div>
       <div className="message">
         <div className="about">
-          Botman, known as Simon Gray in his day-to-day life, is a complex
-          character residing in the tumultuous city of Gotham. Unlike the
-          legendary Batman, Simons well-intentioned efforts, influenced by his
-          unique perception of the world due to his autism, often result in
-          unforeseen complications for those around him. Simon, deeply
-          enthralled by Batmans persona, crafts his own makeshift costume,
-          transforming into Botman. In his mind, he is a guardian of justice,
-          but his actions often lack the finesse and understanding of the real
-          Batmans interventions. His attempts at mimicking Batmans heroic deeds,
-          from solving neighborhood disputes to preventing petty crimes, usually
-          end up in disarray. His interventions, while meant to help, often
-          escalate simple misunderstandings or create new problems altogether.
-          Residents of his neighborhood, while aware of his good intentions, are
-          frequently left dealing with the aftermath of his misguided heroics.
-          Botmans presence in Gotham is a double-edged sword. On one hand, his
-          dedication to emulating Batmans valor is admirable, stemming from a
-          genuine desire to contribute positively to his community. On the
-          other, his actions, influenced by a misinterpretation of social cues
-          and a lack of practical skills, inadvertently lead to more chaos than
-          calm. This portrayal of Simon as Botman is a reminder that intentions,
-          however noble, can have unintended consequences. His story underscores
-          the complexities of perception and impact, particularly in a city as
-          fraught with challenges as Gotham.
+          Botman stands out in Gotham not just for his unintended misadventures
+          in heroism, but also for his unexpected charm, deeply influenced by
+          his autism. This aspect of his character adds a unique layer to his
+          interactions, particularly in romantic scenarios. His autism shapes
+          the way he perceives and engages with the world, leading to a
+          straightforward, genuine demeanor thats refreshingly unfiltered. This
+          sincerity, so different from the calculated charm of his idol Batman,
+          inadvertently captures attention in social settings. Botmans natural
+          way of communicating, free from typical social pretenses, gives him an
+          unassuming charisma. However, Botman himself often remains unaware of
+          the impact of his presence. He approaches these interactions with a
+          simplicity and honesty, not fully grasping the nuances of his appeal.
+          While his efforts at emulating the heroics of Batman frequently result
+          in more comic chaos than actual help, his endearing and unconventional
+          charisma provides a compelling contrast to his persona as Botman,
+          highlighting how his autism uniquely shapes his journey.
         </div>
         <div>
           CA:{" "}
