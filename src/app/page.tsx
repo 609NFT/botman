@@ -24,9 +24,7 @@ export default function Home() {
       </div>
       <div className="message">
         <div className="about">
-          When life gives you lemons, make orange juice and leave the world
-          wondering how you did it. Thats what Batman would do, I think. -
-          Botman
+          Thats what Batman would do, I think. - Botman
         </div>
         <div>
           CA:{" "}
