@@ -6,8 +6,8 @@ import { AppBar } from "./components/nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Yin Coin Sol",
-  description: "Yin Coin Sol",
+  title: "the dork knight",
+  description: "Botman",
 };
 
 export default function RootLayout({

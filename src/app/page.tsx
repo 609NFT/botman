@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
       <div className="message">
-        <div>BOTMAN.</div>
+        <div>Botman.</div>
         <div>CA: 2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK</div>
         <div className="socials">
           <a target="_blank" href="https://twitter.com/Botmansolana">
