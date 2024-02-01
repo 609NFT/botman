@@ -24,7 +24,15 @@ export default function Home() {
       </div>
       <div className="message">
         <div>Botman.</div>
-        <div>CA: 2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK</div>
+        <div>
+          CA:{" "}
+          <a
+            target="_blank"
+            href="https://birdeye.so/token/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK?chain=solana"
+          >
+            2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK
+          </a>
+        </div>
         <div className="socials">
           <a target="_blank" href="https://twitter.com/Botmansolana">
             <Image
