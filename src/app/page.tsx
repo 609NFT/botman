@@ -24,29 +24,6 @@ export default function Home() {
       </div>
       <div className="message">
         <div className="about">
-          Botman is an eccentric and unexpectedly charming figure in Gotham
-          City. His unique interpretation of Batman, combined with his
-          distinctive quirks due to autism, make him a truly one-of-a-kind
-          character. Botmans costume is a whimsical creation, a colorful and
-          mismatched ensemble that he believes captures the essence of Batman.
-          This outfit, though far from the sleek design of the real Batman,
-          somehow adds to his charm. His understanding of the world around him
-          is offbeat. This unconventional perspective is confusing to some but
-          strangely appealing to others. Despite, or perhaps because of, his
-          unusual behavior and statements, Botman has an unexpected knack for
-          capturing the interest of women. His approach to romantic interactions
-          is as unconventional as his crime-fighting advice. He might, for
-          instance, initiate a conversation with a woman by earnestly discussing
-          the aerodynamics of capes. His authenticity and lack of pretense,
-          combined with his innocent enthusiasm, make him surprisingly
-          endearing. Women find his genuine nature and unfiltered conversation
-          refreshing in a world where such honesty is rare. Botmans attempts at
-          heroism in Gotham are as eccentric as his social interactions. He
-          might be found redirecting traffic to save people from the chaos of
-          inefficient road patterns or earnestly guarding a cat stuck in a tree,
-          awaiting its decision to come down.
-        </div>
-        <div className="about">
           When life gives you lemons, make orange juice and leave the world
           wondering how you did it. Thats what Batman would do, I think. -
           Botman
