@@ -13,8 +13,8 @@ export default function Home() {
       <div className="flex flex-items justify-center">
         <div className="vertically-center">
           <Image
-            src="/yin.png"
-            alt="Yin Coin Logo"
+            src="/sticker.png"
+            alt="BOTMAN"
             className="rotate"
             width={100}
             height={24}
@@ -24,7 +24,29 @@ export default function Home() {
       </div>
       <div className="message">
         <div>BOTMAN.</div>
-        <div>UTILIZING THE TOKEN 2022 STANDARD ON SOLANA.</div>
+        <div>CA: 2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK</div>
+        <div className="socials">
+          <a target="_blank" href="https://twitter.com/Botmansolana">
+            <Image
+              src="/twitter.png"
+              alt="twitter"
+              className="twitter"
+              width={60}
+              height={60}
+              priority
+            />
+          </a>
+          <a target="_blank" href="https://t.me/botmancommunity">
+            <Image
+              src="/telegram.png"
+              alt="tg"
+              className="twitter"
+              width={30}
+              height={30}
+              priority
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

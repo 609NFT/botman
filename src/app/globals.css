@@ -21,6 +21,11 @@
   }
 }
 
+.twitter{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .message{
   margin-top: 50px;
   /*font-family: 'Phudu-ExtraBold';*/
@@ -29,6 +34,6 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #E4D8C7;
+  background: #726AFC;
   text-align: center;
 }
