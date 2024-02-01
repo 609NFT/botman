@@ -23,7 +23,32 @@ export default function Home() {
         </div>
       </div>
       <div className="message">
-        <div>Botman.</div>
+        <div className="about">
+          Botman, known as Simon Gray in his day-to-day life, is a complex
+          character residing in the tumultuous city of Gotham. Unlike the
+          legendary Batman, Simon's well-intentioned efforts, influenced by his
+          unique perception of the world due to his autism, often result in
+          unforeseen complications for those around him. Simon, deeply
+          enthralled by Batman's persona, crafts his own makeshift costume,
+          transforming into Botman. In his mind, he is a guardian of justice,
+          but his actions often lack the finesse and understanding of the real
+          Batman's interventions. His attempts at mimicking Batman's heroic
+          deeds, from solving neighborhood disputes to preventing petty crimes,
+          usually end up in disarray. His interventions, while meant to help,
+          often escalate simple misunderstandings or create new problems
+          altogether. Residents of his neighborhood, while aware of his good
+          intentions, are frequently left dealing with the aftermath of his
+          misguided heroics. Botman's presence in Gotham is a double-edged
+          sword. On one hand, his dedication to emulating Batman's valor is
+          admirable, stemming from a genuine desire to contribute positively to
+          his community. On the other, his actions, influenced by a
+          misinterpretation of social cues and a lack of practical skills,
+          inadvertently lead to more chaos than calm. This portrayal of Simon as
+          Botman is a reminder that intentions, however noble, can have
+          unintended consequences. His story underscores the complexities of
+          perception and impact, particularly in a city as fraught with
+          challenges as Gotham.
+        </div>
         <div>
           CA:{" "}
           <a
