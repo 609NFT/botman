@@ -35,7 +35,7 @@ export default function Home() {
           real Batman, somehow adds to his quirky charm. Simons understanding of
           the world around him is delightfully offbeat. He often shares bizarre,
           yet oddly endearing, wisdom like, If you want to catch the bad guys,
-          you have to think like a potato – versatile and unexpected! This
+          you have to think like a rock – versatile and unexpected! This
           unconventional perspective is confusing to some but strangely
           appealing to others. Despite, or perhaps because of, his unusual
           behavior and statements, Botman has an unexpected knack for capturing
