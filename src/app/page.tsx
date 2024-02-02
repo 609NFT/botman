@@ -29,6 +29,18 @@ export default function Home() {
         <div className="socials">
           <a
             target="_blank"
+            href="https://dexscreener.com/solana/awfcdph2jf9kktz4enzenwjsxzjq7jyvkz2fgk7yiecr"
+          >
+            <Image
+              src="/dex.png"
+              alt="dexscreener"
+              className="twitter"
+              width={30}
+              height={30}
+            />
+          </a>
+          <a
+            target="_blank"
             href="https://www.dextools.io/app/en/solana/pair-explorer/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR?t=1706835661175"
           >
             <Image

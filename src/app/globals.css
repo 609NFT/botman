@@ -5,10 +5,10 @@
 
 
 .rotate{
-  animation: rotation infinite 3s linear;
+  /*animation: rotation infinite 3s linear;*/
   margin-top:100px;
-  box-shadow: 0 0 60px 10px black;
-  border-radius: 50px;
+  /*box-shadow: 0 0 60px 10px black;
+  border-radius: 50px;*/
 }
 
 @keyframes rotation{
