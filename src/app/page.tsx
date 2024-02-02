@@ -26,24 +26,38 @@ export default function Home() {
         <div className="about">
           Thats what Batman would do, I think. - Botman
         </div>
-        <div>
-          CA:{" "}
+        <div className="socials">
+          <a
+            target="_blank"
+            href="https://www.dextools.io/app/en/solana/pair-explorer/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR?t=1706835661175"
+          >
+            <Image
+              src="/dextools.png"
+              alt="dextools"
+              className="twitter"
+              width={30}
+              height={30}
+            />
+          </a>
           <a
             target="_blank"
             href="https://birdeye.so/token/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK?chain=solana"
           >
-            2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK
+            <Image
+              src="/birdeye.png"
+              alt="birdeye"
+              className="twitter"
+              width={30}
+              height={30}
+            />
           </a>
-        </div>
-        <div className="socials">
           <a target="_blank" href="https://twitter.com/Botmansolana">
             <Image
               src="/twitter.png"
               alt="twitter"
               className="twitter"
-              width={60}
-              height={60}
-              priority
+              width={30}
+              height={30}
             />
           </a>
           <a target="_blank" href="https://t.me/botmancommunity">
@@ -53,7 +67,6 @@ export default function Home() {
               className="twitter"
               width={30}
               height={30}
-              priority
             />
           </a>
         </div>
