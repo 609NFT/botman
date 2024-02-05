@@ -1,15 +1,16 @@
 import Image from "next/image";
 import { AppBar } from "./components/nav";
 import React, { useState } from "react";
+import { Button } from "react-bootstrap";
 
 export default function Home() {
   return (
     <div>
       {/*<ul>
         <li>
-          <a href="default.asp">Tokenomics</a>
+          <a href="./token">Tokenomics</a>
         </li>
-      </ul>*/}
+  </ul>*/}
       <div className="flex flex-items justify-center">
         <div className="vertically-center">
           <Image
@@ -81,6 +82,15 @@ export default function Home() {
               height={30}
             />
           </a>
+        </div>
+        <div className="buttonDIV">
+          <Button
+            target="_blank"
+            className="button"
+            href="https://jup.ag/swap/SOL-BOTMAN_2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
+          >
+            Buy Now
+          </Button>
         </div>
       </div>
     </div>
