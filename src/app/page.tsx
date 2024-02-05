@@ -14,19 +14,19 @@ export default function Home() {
       <div className="flex flex-items justify-center">
         <div className="vertically-center">
           <Image
-            src="/sticker.png"
+            src="/Group.png"
             alt="BOTMAN"
             className="rotate"
-            width={100}
-            height={24}
+            width={250}
+            height={250}
             priority
           />
         </div>
       </div>
       <div className="message">
-        <div className="about">
+        {/*<div className="about">
           Thats what Batman would do, I think. - Botman
-        </div>
+</div>*/}
         <div className="socials">
           <a
             target="_blank"
@@ -89,7 +89,7 @@ export default function Home() {
             className="button"
             href="https://jup.ag/swap/SOL-BOTMAN_2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
           >
-            Buy Now
+            Join the Cave
           </Button>
         </div>
       </div>
