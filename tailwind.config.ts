@@ -1,6 +1,13 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
+  
+  rules: [
+    {
+      test: /\.(png|svg|jpg|jpeg|gif|ogg|mp3|wav)$/i,
+      type: 'asset/resource',
+    },
+ ],
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
