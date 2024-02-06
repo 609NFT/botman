@@ -20,11 +20,8 @@ export default function Home() {
         </div>
       </div>
       <div className="message">
-        {/*<div className="about">
-          Thats what Batman would do, I think. - Botman
-</div>*/}
         <div className="socials">
-          <Tooltip title="Dex Screener" placement="left">
+          <Tooltip title="DEX Screener" placement="left">
             <a
               target="_blank"
               href="https://dexscreener.com/solana/awfcdph2jf9kktz4enzenwjsxzjq7jyvkz2fgk7yiecr"
@@ -38,7 +35,7 @@ export default function Home() {
               />
             </a>
           </Tooltip>
-          <Tooltip title="Dex Tools" placement="left">
+          <Tooltip title="DEXTools" placement="left">
             <a
               target="_blank"
               href="https://www.dextools.io/app/en/solana/pair-explorer/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR?t=1706835661175"
