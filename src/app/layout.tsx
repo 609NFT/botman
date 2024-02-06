@@ -17,7 +17,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
       <body className={inter.className}>
         {/*<AppBar></AppBar>*/}
         {children}

@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 .rotate{
   /*animation: rotation infinite 3s linear;*/
@@ -29,12 +28,11 @@
 
 .message{
   margin-top: 50px;
-  /*font-family: 'Phudu-ExtraBold';*/
   font-weight: 200;
   color:white;
   width: 36px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about{
@@ -50,6 +48,7 @@
   background-color:white;
   color:black;
   font-weight:500;
+  font-family: 'Bangers', system-ui !important;
 }
 
 .buttonDIV{
@@ -59,6 +58,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: url("background.png") no-repeat center center fixed;
+  font-family: 'Bangers', system-ui !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

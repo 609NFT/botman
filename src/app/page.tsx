@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex flex-items justify-center">
         <div className="vertically-center">
           <Image
-            src="/images/Group.png"
+            src="/images/botman.png"
             alt="BOTMAN"
             className="rotate"
             width={250}
