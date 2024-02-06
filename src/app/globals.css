@@ -32,6 +32,9 @@
   /*font-family: 'Phudu-ExtraBold';*/
   font-weight: 200;
   color:white;
+  width: 36px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about{

@@ -1,20 +1,16 @@
 import Image from "next/image";
 import { AppBar } from "./components/nav";
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Nav, NavItem, Navbar } from "react-bootstrap";
 
 export default function Home() {
   return (
     <div>
-      {/*<ul>
-        <li>
-          <a href="./token">Tokenomics</a>
-        </li>
-  </ul>*/}
+      {/*<AppBar></AppBar>*/}
       <div className="flex flex-items justify-center">
         <div className="vertically-center">
           <Image
-            src="/Group.png"
+            src="/images/Group.png"
             alt="BOTMAN"
             className="rotate"
             width={250}
@@ -33,7 +29,7 @@ export default function Home() {
             href="https://dexscreener.com/solana/awfcdph2jf9kktz4enzenwjsxzjq7jyvkz2fgk7yiecr"
           >
             <Image
-              src="/dex.png"
+              src="/images/dex.png"
               alt="dexscreener"
               className="twitter"
               width={30}
@@ -45,7 +41,7 @@ export default function Home() {
             href="https://www.dextools.io/app/en/solana/pair-explorer/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR?t=1706835661175"
           >
             <Image
-              src="/dextools.png"
+              src="/images/dextools.png"
               alt="dextools"
               className="twitter"
               width={30}
@@ -57,7 +53,7 @@ export default function Home() {
             href="https://birdeye.so/token/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK?chain=solana"
           >
             <Image
-              src="/birdeye.png"
+              src="/images/birdeye.png"
               alt="birdeye"
               className="twitter"
               width={30}
@@ -66,7 +62,7 @@ export default function Home() {
           </a>
           <a target="_blank" href="https://twitter.com/Botmansolana">
             <Image
-              src="/twitter.png"
+              src="/images/twitter.png"
               alt="twitter"
               className="twitter"
               width={30}
@@ -75,7 +71,7 @@ export default function Home() {
           </a>
           <a target="_blank" href="https://t.me/botmancommunity">
             <Image
-              src="/telegram.png"
+              src="/images/telegram.png"
               alt="tg"
               className="twitter"
               width={30}
@@ -83,15 +79,15 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="buttonDIV">
-          <Button
-            target="_blank"
-            className="button"
-            href="https://jup.ag/swap/SOL-BOTMAN_2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
-          >
-            Join the Cave
-          </Button>
-        </div>
+      </div>
+      <div className="buttonDIV">
+        <Button
+          target="_blank"
+          className="button"
+          href="https://jup.ag/swap/SOL-BOTMAN_2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
+        >
+          Join the Cave
+        </Button>
       </div>
     </div>
   );

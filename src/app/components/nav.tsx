@@ -8,8 +8,8 @@ export const AppBar: React.FC = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">
-          Tokenomics
+        <a className="navbar-brand" href="/memes">
+          Memes
         </a>
       </nav>
     </div>
