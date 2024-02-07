@@ -96,6 +96,19 @@ export default function Home() {
           Join the Cave
         </Button>
       </div>
+      <Image
+        src="/images/Triangle.svg"
+        alt="tg"
+        width={0}
+        height={0}
+        style={{ width: "100%", height: "auto" }}
+        sizes="100vw"
+        className="triangle"
+      />
+      <div className="second_div">
+        <div className="second_content">New Content Coming Soon!</div>
+        <div className="footer">Stay tuned.</div>
+      </div>
     </div>
   );
 }
