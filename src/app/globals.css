@@ -11,7 +11,7 @@
 }
 
 .second_div{
-  height:600px;
+  height:700px;
   background:#000000;
   color:white;
 }
@@ -143,6 +143,18 @@
   font-weight:500;
   font-family: 'Bangers', system-ui !important;
 }
+.button2{
+  padding: 15px 25px;
+  border-radius: 5px;
+  outline: 0;
+  border: 3px solid black; 
+  font-size: 24px;
+  background-color:white;
+  color:black;
+  font-weight:500;
+  font-family: 'Bangers', system-ui !important;
+  margin-top:20px;
+}
 
 .buttonDIV{
   margin-top:30px;
@@ -159,4 +171,8 @@ body {
   background-size: cover;
   /*background: #726AFC;*/
   text-align: center;
+}
+
+.download_meme{
+  margin-left:20px;
 }

@@ -1,12 +1,21 @@
+"use client";
 import Image from "next/image";
-import { AppBar } from "./components/nav";
 import React, { useState } from "react";
 import { Button, Nav, NavItem, Navbar } from "react-bootstrap";
 import Tooltip from "@mui/material/Tooltip";
 import Slider from "./components/slider";
 import AudioPlayer from "./components/audio";
+import MemeGenerator from "./components/meme";
+import Modal from "./components/modal";
 
 export default function Home() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => {
+    console.log("Closing modal");
+    setIsModalOpen(false);
+  };
   return (
     <div>
       <div className="flex flex-items justify-center">
@@ -108,10 +117,16 @@ export default function Home() {
         className="triangle"
       />
       <div className="second_div">
-        <div className="second_content">meems ov botman...</div>
+        <div className="second_content">memes of botman...</div>
         {/*<div className="footer">botman live normul life.</div>*/}
         <div>
           <Slider></Slider>
+          <button className="button2" onClick={openModal}>
+            Create your own
+          </button>
+          <Modal isOpen={isModalOpen} onClose={closeModal}>
+            <MemeGenerator />
+          </Modal>
         </div>
         <div>
           <AudioPlayer></AudioPlayer>
