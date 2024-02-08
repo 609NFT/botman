@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Button, Nav, NavItem, Navbar } from "react-bootstrap";
 import Tooltip from "@mui/material/Tooltip";
 import Slider from "./components/slider";
+import AudioPlayer from "./components/audio";
 
 export default function Home() {
   return (
@@ -111,6 +112,9 @@ export default function Home() {
         {/*<div className="footer">botman live normul life.</div>*/}
         <div>
           <Slider></Slider>
+        </div>
+        <div>
+          <AudioPlayer></AudioPlayer>
         </div>
       </div>
       <div className="footer_div">Copyright © Botman 2024</div>

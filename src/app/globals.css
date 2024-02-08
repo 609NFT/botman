@@ -73,6 +73,22 @@
   transition: scroll 0.3s ease-in-out;
 }
 
+/* AudioToggle.css */
+.audio-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  border-radius: 5px;
+  z-index: 100; /* Ensure the button is visible above other content */
+}
+
+
 .image {
   width: 200px;
   height: 200px;
@@ -118,7 +134,7 @@
 
 .button{
   padding: 15px 25px;
-  border-radius: 30px;
+  border-radius: 5px;
   outline: 0;
   border: 3px solid black; 
   font-size: 24px;
