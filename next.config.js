@@ -13,4 +13,14 @@ module.exports = {
       });
       return config;
     },
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'postimg.cc',
+          port: '',
+          pathname: '/gLbWW6q3/f9a3f64a',
+        },
+      ],
+    },
   };

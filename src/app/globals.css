@@ -17,8 +17,8 @@
 }
 
 .second_content{
-  padding-top:100px;
-  font-size: 50px;
+  padding-top:80px;
+  font-size: 45px;
 }
 
 @keyframes rotation{
@@ -38,6 +38,46 @@
   border:1px solid white;
 }
 
+/* SLIDER */
+.App {
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.images-container {
+  display: flex;
+  max-width: 750px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  transition: scroll 0.3s ease-in-out;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.nav-btn {
+  color: black;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  background-color: white;
+  border-radius: 6px;
+  height: 200px;
+  width: 30px;
+  margin: 5px;
+}
+
+/* END SLIDER */
+
 .message{
   margin-top: 50px;
   font-weight: 200;
@@ -45,6 +85,11 @@
   width: 36px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.footer_div{
+  height: 25px;
+  background-color: white;
 }
 
 .about{

@@ -3,6 +3,7 @@ import { AppBar } from "./components/nav";
 import React, { useState } from "react";
 import { Button, Nav, NavItem, Navbar } from "react-bootstrap";
 import Tooltip from "@mui/material/Tooltip";
+import Slider from "./components/slider";
 
 export default function Home() {
   return (
@@ -106,9 +107,13 @@ export default function Home() {
         className="triangle"
       />
       <div className="second_div">
-        <div className="second_content">New Content Coming Soon!</div>
-        <div className="footer">Stay tuned.</div>
+        <div className="second_content">meems ov botman...</div>
+        {/*<div className="footer">botman live normul life.</div>*/}
+        <div>
+          <Slider></Slider>
+        </div>
       </div>
+      <div className="footer_div">Copyright © Botman 2024</div>
     </div>
   );
 }
