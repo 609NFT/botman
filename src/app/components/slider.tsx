@@ -5,8 +5,9 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 export default function Slider() {
-  const sliderRef = useRef(null);
   const scrollAmount = 100;
+  // Specify the type of elements the ref will refer to
+  const sliderRef = useRef<HTMLDivElement>(null);
   const images = [
     {
       id: 1,
@@ -40,7 +41,9 @@ export default function Slider() {
         className="nav-btn"
         onClick={() => {
           const container = sliderRef.current;
-          container.scrollLeft -= scrollAmount;
+          if (container) {
+            container.scrollLeft += scrollAmount;
+          }
         }}
       >
         <ChevronLeftIcon />
@@ -61,7 +64,9 @@ export default function Slider() {
         className="nav-btn"
         onClick={() => {
           const container = sliderRef.current;
-          container.scrollLeft += scrollAmount;
+          if (container) {
+            container.scrollLeft += scrollAmount;
+          }
         }}
       >
         <ChevronRightIcon />
