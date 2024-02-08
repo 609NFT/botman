@@ -16,7 +16,7 @@ export default function Slider() {
     },
     {
       id: 2,
-      url: "https://i.postimg.cc/JzbPJzGj/botman4.jpg",
+      url: "https://i.postimg.cc/44QdNcKr/photo-2024-02-08-16-19-53.jpg",
     },
     {
       id: 3,
@@ -24,15 +24,15 @@ export default function Slider() {
     },
     {
       id: 4,
-      url: "https://i.postimg.cc/W4dm8p49/botman5.jpg",
+      url: "https://i.postimg.cc/zGrYLt97/photo-2024-02-08-16-19-40.jpg",
     },
     {
       id: 5,
-      url: "https://i.postimg.cc/nr4NLGbQ/botman3.jpg",
+      url: "https://i.postimg.cc/D00yMj2L/photo-2024-02-08-16-19-48.jpg",
     },
     {
       id: 6,
-      url: "https://i.postimg.cc/sXQvbvFL/botman9.jpg",
+      url: "https://i.postimg.cc/zBPzmC2h/photo-2024-02-08-16-19-45.jpg",
     },
   ];
 
