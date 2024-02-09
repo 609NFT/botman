@@ -5,7 +5,7 @@ import html2canvas from "html2canvas";
 
 const MemeGenerator = () => {
   const [text, setText] = useState("");
-  const [imageSrc, setImageSrc] = useState("/images/botman_meme.png"); // Adjust with your default meme image path
+  const [imageSrc, setImageSrc] = useState("/images/homeless_botman.jpg"); // Adjust with your default meme image path
   const memeRef = useRef<HTMLDivElement>(null);
 
   const handleTextChange = (e: React.ChangeEvent<HTMLInputElement>) =>
@@ -36,8 +36,8 @@ const MemeGenerator = () => {
         <p
           style={{
             position: "absolute",
-            top: "28%",
-            left: "30%",
+            top: "78%",
+            left: "56%",
             transform: "translate(-50%, -50%)",
             color: "black",
             fontSize: "20px",

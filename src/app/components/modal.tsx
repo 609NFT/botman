@@ -63,7 +63,7 @@ const modalStyle: React.CSSProperties = {
   borderRadius: "5px",
   // Specify the width and max-width to control size
   width: "80%", // or a specific pixel value
-  maxWidth: "600px", // Adjust based on your design needs
+  maxWidth: "400px", // Adjust based on your design needs
   // Specify the height and max-height if you want to control height
   maxHeight: "80vh", // 80% of the viewport height
   overflowY: "auto", // Add scroll for overflowing content
