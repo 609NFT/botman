@@ -34,6 +34,10 @@ export default function Slider() {
       id: 6,
       url: "https://i.postimg.cc/zBPzmC2h/photo-2024-02-08-16-19-45.jpg",
     },
+    {
+      id: 7,
+      url: "https://i.postimg.cc/wMjLPvq0/photo-2024-02-12-12-14-36.jpg",
+    },
   ];
 
   // Function to open the popup with the selected image
