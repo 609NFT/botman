@@ -11,7 +11,7 @@
 }
 
 .second_div{
-  height:650px;
+  height:550px;
   background:#000000;
   color:white;
 }
@@ -19,6 +19,11 @@
 .second_content{
   padding-top:80px;
   font-size: 45px;
+}
+
+.third_div{
+  height:650px;
+  color:white;
 }
 
 .image-popup {

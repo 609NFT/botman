@@ -132,6 +132,18 @@ export default function Home() {
           <AudioPlayer></AudioPlayer>
         </div>
       </div>
+      <Image
+        src="/images/Triangle2.svg"
+        alt="tg"
+        width={0}
+        height={0}
+        style={{ width: "100%", height: "auto" }}
+        sizes="100vw"
+        className="triangle"
+      />
+      <div className="third_div">
+        <div className="second_content">Coming Soon...</div>
+      </div>
       <div className="footer_div">Copyright © Botman 2024</div>
     </div>
   );
