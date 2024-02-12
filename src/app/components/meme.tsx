@@ -13,7 +13,7 @@ const MemeGenerator = () => {
 
   const downloadMeme = () => {
     if (memeRef.current) {
-      html2canvas(memeRef.current, { scale: 1 }).then((canvas) => {
+      html2canvas(memeRef.current, { scale: 3 }).then((canvas) => {
         const image = canvas
           .toDataURL("image/png")
           .replace("image/png", "image/octet-stream");
