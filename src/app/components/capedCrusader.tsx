@@ -12,7 +12,7 @@ function GameModal() {
   return (
     <div>
       <button className="button2" onClick={openModal}>
-        Play Botman caped crusader ->
+        Play Botman caped crusader
       </button>
 
       {showModal && (
