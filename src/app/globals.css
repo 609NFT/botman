@@ -30,6 +30,24 @@
   /*cursor:pointer;*/
 }
 
+.solPrice{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border: 3px solid black; 
+  font-size: 16px;
+  border-radius: 5px;
+  /*cursor:pointer;*/
+}
+
+.button3{
+  border-radius: 50%;
+}
+
 .second_content{
   padding-top:80px;
   font-size: 45px;
@@ -104,7 +122,7 @@
   border: 3px solid black;
   color: black;
   border-radius: 5px;
-  z-index: 100; /* Ensure the button is visible above other content */
+  z-index: 100;
 }
 
 

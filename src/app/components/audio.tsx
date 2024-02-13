@@ -1,5 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import IconButton from "@mui/material/IconButton";
+import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
+import AudiotrackIcon from "@material-ui/icons/Audiotrack";
 
 const AudioToggle = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -27,10 +30,25 @@ const AudioToggle = () => {
   }, [isPlaying]); // Depend on isPlaying to toggle playback
 
   return (
-    <button className="audio-toggle" onClick={() => setIsPlaying(!isPlaying)}>
-      {isPlaying ? "Pause" : "Play"}
-    </button>
+    <IconButton
+      className="audio-toggle"
+      style={{ backgroundColor: "white", borderRadius: "50%" }}
+      onClick={() => setIsPlaying(!isPlaying)}
+    >
+      <AudiotrackIcon fontSize="medium" />
+    </IconButton>
   );
 };
 
 export default AudioToggle;
+
+{
+  /*<IconButton className="audio-toggle" onClick={() => setIsPlaying(!isPlaying)}>
+        {isPlaying ? "Pause" : "Play"}
+  </IconButton>
+<button className="audio-toggle" onClick={() => setIsPlaying(!isPlaying)}>
+      {isPlaying ? "Pause" : "Play"}
+    </button>
+
+*/
+}

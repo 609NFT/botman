@@ -9,6 +9,7 @@ import MemeGenerator from "./components/meme";
 import Modal from "./components/modal";
 import BotmanPrice from "./components/getBotmanPrice";
 import BatmanGame from "./components/capedCrusader";
+import SolPrice from "./components/getSolPrice";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -147,6 +148,7 @@ export default function Home() {
         <div className="second_content">
           <BotmanPrice></BotmanPrice>
           <BatmanGame></BatmanGame>
+          <SolPrice></SolPrice>
         </div>
       </div>
       <div className="footer_div">Copyright © Botman 2024</div>
