@@ -213,3 +213,7 @@ body {
 .download_meme{
   margin-left:20px;
 }
+
+img{
+  display:inline;
+}
