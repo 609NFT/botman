@@ -131,9 +131,9 @@ export default function Home() {
             <MemeGenerator />
           </Modal>
         </div>
-        <div>
+        {/*<div>
           <AudioPlayer></AudioPlayer>
-        </div>
+        </div>*/}
       </div>
       <Image
         src="/images/Triangle2.svg"
