@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import IconButton from "@mui/material/IconButton";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
-import AudiotrackIcon from "@material-ui/icons/Audiotrack";
 
 const AudioToggle = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -35,7 +34,7 @@ const AudioToggle = () => {
       style={{ backgroundColor: "white", borderRadius: "50%" }}
       onClick={() => setIsPlaying(!isPlaying)}
     >
-      <AudiotrackIcon fontSize="medium" />
+      Play
     </IconButton>
   );
 };
