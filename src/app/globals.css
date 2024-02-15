@@ -30,6 +30,41 @@
   /*cursor:pointer;*/
 }
 
+/* styles.css */
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Dark background color */
+  overflow: hidden;
+  position: fixed; /* Fix position to the top of the page */
+  top: 0; /* Position at the top */
+  width: 100%; /* Full width */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center flex items horizontally */
+  align-items: center; /* Center flex items vertically */
+  z-index: 1000; /* Ensure nav stays on top of other content */
+  height: 50px; /* Reduce the height of the nav bar */
+}
+
+.navItem {
+  margin: 0 10px; /* Adjust spacing between items */
+}
+
+.navItem a, .navItem span {
+  display: block; /* Allows padding to affect clickable area */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  padding: 10px 15px; /* Adjust padding to reduce height */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Change the link color to #111 (darker) on hover */
+.navItem a:hover, .navItem span:hover {
+  background-color: #111;
+}
+
+
 .solPrice{
   position: fixed;
   bottom: 20px;

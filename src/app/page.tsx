@@ -10,6 +10,7 @@ import Modal from "./components/modal";
 import BotmanPrice from "./components/getBotmanPrice";
 import BatmanGame from "./components/capedCrusader";
 import SolPrice from "./components/getSolPrice";
+import Navigation from "./components/navigation";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -21,6 +22,7 @@ export default function Home() {
   };
   return (
     <div>
+      <Navigation></Navigation>
       <div className="flex flex-items justify-center">
         <div className="vertically-center">
           <Image
@@ -147,7 +149,7 @@ export default function Home() {
       <div className="third_div">
         <div className="second_content">
           <BotmanPrice></BotmanPrice>
-          <BatmanGame></BatmanGame>
+          MORE CONTENT COMING SOON...
           <SolPrice></SolPrice>
         </div>
       </div>

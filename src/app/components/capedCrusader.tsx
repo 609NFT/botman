@@ -11,9 +11,12 @@ function GameModal() {
 
   return (
     <div>
-      <button className="button2" onClick={openModal}>
+      <span className="navLink" onClick={openModal}>
+        Play
+      </span>
+      {/*<button className="button2" onClick={openModal}>
         Play Botman caped crusader
-      </button>
+  </button>*/}
 
       {showModal && (
         <div
