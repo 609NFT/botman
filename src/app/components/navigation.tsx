@@ -15,6 +15,11 @@ const Navigation = () => (
         </Link>
       </li>
       <li className="navItem">
+        <Link href="/characters">
+          <span className="navLink">Characters</span>
+        </Link>
+      </li>
+      <li className="navItem">
         <Link href="/play">
           <span className="navLink">Play</span>
         </Link>
