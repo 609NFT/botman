@@ -47,6 +47,24 @@
   height: 50px; /* Reduce the height of the nav bar */
 }
 
+.about{
+  color:black;
+}
+
+.about_div{
+  margin-top:100px;
+  border-radius: 25px;
+}
+
+.about_p{
+  padding:20px;
+  background: hsla(0,0%,100%,.5)!important;
+  max-width:75%;
+  text-align: left;
+  margin-right:auto;
+  margin-left:auto;
+}
+
 .navItem {
   margin: 0 10px; /* Adjust spacing between items */
 }

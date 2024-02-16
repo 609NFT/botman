@@ -9,14 +9,14 @@ const Navigation = () => (
           <span className="navLink">Home</span>
         </Link>
       </li>
-      {/*<li className="navItem">
-        <Link href="/">
+      <li className="navItem">
+        <Link href="/about">
           <span className="navLink">About</span>
         </Link>
-</li>*/}
+      </li>
       <li className="navItem">
-        <Link href="/">
-          <GameModal></GameModal>
+        <Link href="/play">
+          <span className="navLink">Play</span>
         </Link>
       </li>
       {/* Additional navigation items */}

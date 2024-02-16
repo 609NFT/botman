@@ -11,6 +11,7 @@ import BotmanPrice from "./components/getBotmanPrice";
 import BatmanGame from "./components/capedCrusader";
 import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
+import Link from "next/link";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
