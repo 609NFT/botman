@@ -43,8 +43,16 @@ export default function Slider() {
       url: "https://i.postimg.cc/m27w6y0D/photo-2024-02-12-17-03-35.jpg",
     },
     {
-      id: 8,
+      id: 9,
       url: "https://i.postimg.cc/dth0dhq3/photo-2024-02-14-14-27-26.jpg",
+    },
+    {
+      id: 10,
+      url: "https://i.postimg.cc/x1NgGzrZ/photo-2024-02-13-04-54-20.jpg",
+    },
+    {
+      id: 11,
+      url: "https://i.postimg.cc/fLyVXYpt/photo-2024-02-16-12-07-19.jpg",
     },
   ];
 
