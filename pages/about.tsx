@@ -5,6 +5,10 @@ import "../src/app/globals.css";
 export default function About() {
   return (
     <div className="about">
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+        rel="stylesheet"
+      ></link>
       <Navigation></Navigation>
       <div className="about_div">
         <p className="about_p">

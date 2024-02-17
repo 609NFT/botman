@@ -356,3 +356,10 @@ body {
 img{
   display:inline;
 }
+
+@font-face {
+  font-family: 'botman';
+  src: url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); /* Older browsers */
+  font-weight: normal;
+  font-style: normal;
+}

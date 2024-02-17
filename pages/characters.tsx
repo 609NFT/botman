@@ -8,6 +8,10 @@ import { Nav } from "react-bootstrap";
 
 const CharactersPage = () => (
   <div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    ></link>
     <Navigation></Navigation>
     <div className="characters-container">
       {characters.map((character) => (

@@ -6,6 +6,10 @@ import "../src/app/globals.css";
 export default function Play() {
   return (
     <div>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+        rel="stylesheet"
+      ></link>
       <Navigation></Navigation>
       <GameModal></GameModal>
     </div>
