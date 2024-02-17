@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       <Navigation></Navigation>
-      <div className="flex flex-items justify-center">
+      {/*<div className="flex flex-items justify-center">
         <div className="vertically-center">
           <Image
             src="/images/botman.png"
@@ -35,7 +35,7 @@ export default function Home() {
             priority
           />
         </div>
-      </div>
+      </div>*/}
       <div className="message">
         <div className="socials">
           <Tooltip title="DEX Screener" placement="left">

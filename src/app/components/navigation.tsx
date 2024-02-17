@@ -1,32 +1,40 @@
+// navigation.tsx
+import React, { useState } from "react";
 import Link from "next/link";
-import GameModal from "./capedCrusader";
 
-const Navigation = () => (
-  <nav>
-    <ul className="navList">
-      <li className="navItem">
-        <Link href="/">
-          <span className="navLink">Home</span>
+const Navigation = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="navbar">
+      <div className="logo-container">
+        <Link href="/" passHref>
+          <img src="/images/logo.png" alt="Logo" className="logo" />
         </Link>
-      </li>
-      <li className="navItem">
-        <Link href="/about">
-          <span className="navLink">About</span>
-        </Link>
-      </li>
-      <li className="navItem">
-        <Link href="/characters">
-          <span className="navLink">Characters</span>
-        </Link>
-      </li>
-      <li className="navItem">
-        <Link href="/play">
-          <span className="navLink">Play</span>
-        </Link>
-      </li>
-      {/* Additional navigation items */}
-    </ul>
-  </nav>
-);
+      </div>
+      <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+        &#9776;
+      </button>
+      <ul className={`nav-links ${isOpen ? "open" : ""}`}>
+        <li>
+          <Link href="/about" passHref>
+            <span>About</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/characters" passHref>
+            <span>Characters</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/play" passHref>
+            <span>Play</span>
+          </Link>
+        </li>
+        {/* Additional links as needed */}
+      </ul>
+    </nav>
+  );
+};
 
 export default Navigation;

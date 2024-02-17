@@ -7,8 +7,6 @@ export default function Play() {
   return (
     <div>
       <Navigation></Navigation>
-      <h1>Play Page</h1>
-      <p>This is the about page.</p>
       <GameModal></GameModal>
     </div>
   );
