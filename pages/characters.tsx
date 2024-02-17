@@ -14,6 +14,7 @@ const CharactersPage = () => (
         <Character key={character.name} {...character} />
       ))}
     </div>
+    <div className="footer_div">Copyright © Botman 2024</div>
   </div>
 );
 

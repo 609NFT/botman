@@ -16,14 +16,19 @@ const characters = [
       imageUrl: 'https://i.postimg.cc/LXpwyDDb/photo-2024-02-16-17-07-10.jpg',
     },
     {
-        name: 'Character Four',
-        description: 'This is a description of Character Four.',
+        name: 'Awlfwed',
+        description: 'This is a description of Awlfwed.',
         imageUrl: 'https://i.postimg.cc/6q6SKQDV/photo-2024-02-16-17-07-18.jpg',
       },
       {
         name: 'Glen',
         description: 'This is a description of Glen.',
         imageUrl: 'https://i.postimg.cc/1zxjtBk3/photo-2024-02-16-17-07-25.jpg',
+      },
+      {
+        name: 'Character six',
+        description: 'This is a description of character six.',
+        imageUrl: 'https://i.postimg.cc/m27w6y0D/photo-2024-02-12-17-03-35.jpg',
       },
     // Add more characters as needed
   ];
