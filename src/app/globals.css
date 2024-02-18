@@ -395,3 +395,10 @@ img{
 .socials-slider {
   animation: slide 10s linear infinite; /* Adjust duration (10s) as needed */
 }
+
+.cave{
+  border:1px solid white;
+  border-radius: 15px;
+  background-color: white;
+  padding:10px;
+}

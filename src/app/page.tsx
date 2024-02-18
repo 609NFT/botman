@@ -11,9 +11,15 @@ import BotmanPrice from "./components/getBotmanPrice";
 import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
 import SocialsSlider from "./components/socialSlider";
+import MessageSender from "./components/contactForm";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Event handler function
+  const handleClick = () => {
+    alert("Coming Soon....");
+  };
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => {
@@ -138,6 +144,9 @@ export default function Home() {
       <div className="third_div">
         <div className="second_content">
           <BotmanPrice></BotmanPrice>
+          <Button className="cave" onClick={handleClick}>
+            🔦 Enter The Cave 🪨
+          </Button>
           <SolPrice></SolPrice>
         </div>
       </div>
