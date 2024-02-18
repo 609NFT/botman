@@ -1,0 +1,13 @@
+body {
+    color: rgb(var(--foreground-rgb));
+    background: url("/images/cave.jpeg") no-repeat center center fixed;
+    font-family: 'Bangers', system-ui !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background: #726AFC;*/
+    text-align: center;
+      max-width: 100vw;
+      overflow-x: hidden;
+  }
