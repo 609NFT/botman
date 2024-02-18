@@ -11,7 +11,7 @@ import BotmanPrice from "./components/getBotmanPrice";
 import BatmanGame from "./components/capedCrusader";
 import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
-import Link from "next/link";
+import SocialsSlider from "./components/socialSlider";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,18 +24,7 @@ export default function Home() {
   return (
     <div>
       <Navigation></Navigation>
-      <div className="flex flex-items justify-center">
-        <div className="vertically-center">
-          <Image
-            src="/images/botman.png"
-            alt="BOTMAN"
-            className="rotate"
-            width={250}
-            height={250}
-            priority
-          />
-        </div>
-      </div>
+      <SocialsSlider></SocialsSlider>
       <div className="message">
         <div className="socials">
           <Tooltip title="DEX Screener" placement="left">
