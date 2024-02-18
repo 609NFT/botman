@@ -1,0 +1,75 @@
+/* ChatUI.css */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px; /* Adjust the height as needed */
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Ensures the chat box is not too wide on larger screens */
+    margin: 20px auto; /* Centers the chat container on the page */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff; /* Sets a white background for the chat container */
+  }
+  
+  .messages-area {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start; /* Default alignment to the start */
+  }
+  
+  .message {
+    padding: 8px 12px;
+    border-radius: 16px;
+    max-width: 75% !important; /* Adjust based on preference */
+    word-break: break-word;
+    font-size: 14px; /* Adjust based on preference */
+  }
+  
+  .message.user {
+    align-self: flex-end;
+    background-color: #DCF8C6;
+    margin-left: auto; /* Ensures it sticks to the right */
+    margin-right: 0;
+  }
+  
+  .message.bot {
+    align-self: flex-start;
+    background-color: #ECECEC;
+    margin-right: auto; /* Ensures it sticks to the left */
+    margin-left: 0;
+  }
+  
+  
+  .message-form {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc; /* Separates the input form from the message area */
+    background-color: #fff; /* Matches the chat container's background */
+  }
+  
+  .message-input {
+    flex-grow: 1; /* Allows the input to grow and fill the available space */
+    margin-right: 10px; /* Spacing between the input field and the send button */
+    padding: 8px;
+    border: 1px solid #ccc; /* Light grey border for the input */
+    border-radius: 4px; /* Rounded corners for the input */
+  }
+  
+  .send-button {
+    padding: 8px 15px; /* Padding for the send button */
+    background-color: #007bff; /* Blue background for the button */
+    color: #fff; /* White text color */
+    border: none; /* Removes the default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3; /* Darker blue on hover for the button */
+  }
+  

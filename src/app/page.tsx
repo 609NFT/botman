@@ -8,10 +8,10 @@ import AudioPlayer from "./components/audio";
 import MemeGenerator from "./components/meme";
 import Modal from "./components/modal";
 import BotmanPrice from "./components/getBotmanPrice";
-import BatmanGame from "./components/capedCrusader";
 import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
 import SocialsSlider from "./components/socialSlider";
+import ChatUI from "./components/chatUI";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,9 +25,9 @@ export default function Home() {
     <div>
       <Navigation></Navigation>
       <SocialsSlider></SocialsSlider>
-      <div className="message">
+      <div className="the_socials">
         <div className="socials">
-          <Tooltip title="DEX Screener" placement="left">
+          <Tooltip title="DEX Screener" placement="top">
             <a
               target="_blank"
               href="https://dexscreener.com/solana/awfcdph2jf9kktz4enzenwjsxzjq7jyvkz2fgk7yiecr"
@@ -41,7 +41,7 @@ export default function Home() {
               />
             </a>
           </Tooltip>
-          <Tooltip title="DEXTools" placement="left">
+          <Tooltip title="DEXTools" placement="top">
             <a
               target="_blank"
               href="https://www.dextools.io/app/en/solana/pair-explorer/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR?t=1706835661175"
@@ -55,7 +55,7 @@ export default function Home() {
               />
             </a>
           </Tooltip>
-          <Tooltip title="Birdeye" placement="left">
+          <Tooltip title="Birdeye" placement="top">
             <a
               target="_blank"
               href="https://birdeye.so/token/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK?chain=solana"
@@ -69,7 +69,7 @@ export default function Home() {
               />
             </a>
           </Tooltip>
-          <Tooltip title="Twitter" placement="left">
+          <Tooltip title="Twitter" placement="top">
             <a target="_blank" href="https://twitter.com/Botmansolana">
               <Image
                 src="/images/twitter.png"
@@ -80,7 +80,7 @@ export default function Home() {
               />
             </a>
           </Tooltip>
-          <Tooltip title="Telegram" placement="left">
+          <Tooltip title="Telegram" placement="top">
             <a target="_blank" href="https://t.me/botmancommunity">
               <Image
                 src="/images/telegram.png"
@@ -139,11 +139,12 @@ export default function Home() {
       <div className="third_div">
         <div className="second_content">
           <BotmanPrice></BotmanPrice>
-          MORE CONTENT COMING SOON...
+          {/*<ChatUI></ChatUI>*/}
+          More Content coming soon...
           <SolPrice></SolPrice>
         </div>
       </div>
-      <div className="footer_div">Copyright © Botman 2024</div>
+      {/*<div className="footer_div">Copyright © Botman 2024</div>*/}
     </div>
   );
 }
