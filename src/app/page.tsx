@@ -11,7 +11,6 @@ import BotmanPrice from "./components/getBotmanPrice";
 import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
 import SocialsSlider from "./components/socialSlider";
-import ChatUI from "./components/chatUI";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -139,8 +138,6 @@ export default function Home() {
       <div className="third_div">
         <div className="second_content">
           <BotmanPrice></BotmanPrice>
-          {/*<ChatUI></ChatUI>*/}
-          More Content coming soon...
           <SolPrice></SolPrice>
         </div>
       </div>
