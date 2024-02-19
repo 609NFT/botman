@@ -1,12 +1,9 @@
+"use-client";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import React, { useEffect } from "react";
-import ReactGA from "react-ga";
-/*import { AppBar } from "./components/nav";*/
 
 const inter = Inter({ subsets: ["latin"] });
-const TRACKING_ID = "G-DEWXHEKR9D";
 
 export const metadata: Metadata = {
   title: "the dork knight",
@@ -18,11 +15,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  useEffect(() => {
-    ReactGA.initialize(TRACKING_ID);
-    // To Report Page View
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
   return (
     <html lang="en">
       <head>

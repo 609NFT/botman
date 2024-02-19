@@ -345,7 +345,7 @@ h2, p {
   margin-bottom:80px;
 }
 
-body {
+body,html {
   color: rgb(var(--foreground-rgb));
   background: url("background.png") no-repeat center center fixed;
   font-family: 'Bangers', system-ui !important;
