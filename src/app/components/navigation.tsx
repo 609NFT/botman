@@ -9,7 +9,7 @@ const Navigation = () => {
     <nav className="navbar">
       <div className="logo-container">
         <Link href="/" passHref>
-          <img src="/images/logo.png" alt="Logo" className="logo" />
+          <img src="/images/botman.svg" alt="Logo" className="logo" />
         </Link>
       </div>
       <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
