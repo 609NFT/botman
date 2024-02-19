@@ -24,6 +24,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
           rel="stylesheet"
         ></link>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
       </head>
       <body className={inter.className}>
         {/*<AppBar></AppBar>*/}

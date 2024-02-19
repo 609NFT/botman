@@ -85,6 +85,12 @@ h2, p {
   margin: 10px;
 }
 
+@media (max-width: 768px) {
+.triangle{
+  display: none;
+}
+}
+
 
 .about_p{
   padding:20px;
@@ -103,10 +109,6 @@ h2, p {
   background-color: #333;
   color: white;
   padding: 0 20px;
-}
-
-.logo-container {
-  /* Style your logo container if needed */
 }
 
 .logo {
@@ -189,7 +191,7 @@ h2, p {
 
 .second_content{
   padding-top:80px;
-  font-size: 45px;
+  font-size: 25px;
 }
 
 .third_div{
@@ -353,8 +355,14 @@ body {
   background-size: cover;
   /*background: #726AFC;*/
   text-align: center;
-    max-width: 100vw;
-    overflow-x: hidden;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .download_meme{

@@ -145,7 +145,7 @@ export default function Home() {
         <div className="second_content">
           <BotmanPrice></BotmanPrice>
           <Button className="cave" onClick={handleClick}>
-            🔦 Enter The Cave 🪨
+            🪨 Enter The Cave 🔦
           </Button>
           <SolPrice></SolPrice>
         </div>
