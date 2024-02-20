@@ -12,7 +12,7 @@ export default function About() {
       <Navigation></Navigation>
       <div className="about_div">
         <p className="about_p">
-          In the heart of the bustling city of Cyberton, amidst its towering
+          In the heart of the bustling city of Gotham, amidst its towering
           skyscrapers and neon-lit streets, wandered a character as infamous as
           he was well-meaning—Botman. Far from the conventional hero clad in
           capes and armed with an arsenal of high-tech gadgets, Botman was a
@@ -28,17 +28,17 @@ export default function About() {
         </p>
         <p className="about_p">
           Take, for instance, the day the citys power grid faltered under the
-          strain of a summer heatwave. While the citizens of Cyberton fretted
-          over their gadgets and gizmos going dark, Botman saw an opportunity to
-          lend a hand. Armed with nothing more than a boundless enthusiasm and
-          an oversized hamster wheel hooked to a generator, he set out to power
-          the city himself. The result was less than electrifying, providing
-          enough power to light a single bulb. Yet, it sparked a camaraderie
-          among the residents as they gathered around that lone source of light,
-          sharing stories and laughter.
+          strain of a summer heatwave. While the citizens of Gotham fretted over
+          their gadgets and gizmos going dark, Botman saw an opportunity to lend
+          a hand. Armed with nothing more than a boundless enthusiasm and an
+          oversized hamster wheel hooked to a generator, he set out to power the
+          city himself. The result was less than electrifying, providing enough
+          power to light a single bulb. Yet, it sparked a camaraderie among the
+          residents as they gathered around that lone source of light, sharing
+          stories and laughter.
         </p>
         <p className="about_p">
-          Or consider the episode of the great Cyberton flood, when the citys
+          Or consider the episode of the great Gotham flood, when the citys
           ancient drainage system finally met its match against a relentless
           downpour. In a bid to save the day, Botman, with a makeshift raft
           cobbled together from discarded doors and inflatable pool toys, set
@@ -49,7 +49,7 @@ export default function About() {
         </p>
         <p className="about_p">
           Despite his unconventional methods and the often perplexing outcomes
-          of his interventions, the citizens of Cyberton couldnt help but hold a
+          of his interventions, the citizens of Gotham couldnt help but hold a
           soft spot for Botman. His efforts, though frequently misguided, broke
           the monotony of their everyday lives, reminding them of the value of
           community and the unexpected joys found in moments of imperfection.
@@ -63,11 +63,11 @@ export default function About() {
           absurdities.
         </p>
         <p className="about_p">
-          So, in Cyberton, when things go awry, and the unpredictable looms on
-          the horizon, the people look around with a sense of anticipation. For
-          they know that somewhere in the fray, Botman is there, ready to assist
-          in his uniquely chaotic manner. And while they might not know what to
-          expect, theyre sure of one thing: life in Cyberton is never dull with
+          So, in Gotham, when things go awry, and the unpredictable looms on the
+          horizon, the people look around with a sense of anticipation. For they
+          know that somewhere in the fray, Botman is there, ready to assist in
+          his uniquely chaotic manner. And while they might not know what to
+          expect, theyre sure of one thing: life in Gotham is never dull with
           Botman around.
         </p>
       </div>
