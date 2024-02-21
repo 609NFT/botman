@@ -144,9 +144,12 @@ export default function Home() {
       <div className="third_div">
         <div className="second_content">
           <BotmanPrice></BotmanPrice>
-          <Button className="cave" onClick={handleClick}>
+          {/*<Button className="cave" onClick={handleClick}>
             🪨 Enter The Cave 🔦
-          </Button>
+      </Button>*/}
+          <div id="dexscreener-embed">
+            <iframe src="https://dexscreener.com/solana/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR?embed=1&theme=dark&trades=0&info=0"></iframe>
+          </div>
           <SolPrice></SolPrice>
         </div>
       </div>
