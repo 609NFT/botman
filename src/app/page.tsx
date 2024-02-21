@@ -117,7 +117,9 @@ export default function Home() {
         className="triangle"
       />
       <div className="second_div">
-        <div className="second_content">memes of botman...</div>
+        <div className="second_content">
+          Botman&apos;s Quest for a Better World.
+        </div>
         {/*<div className="footer">botman live normul life.</div>*/}
         <div>
           <Slider></Slider>
