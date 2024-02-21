@@ -12,6 +12,7 @@ import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
 import SocialsSlider from "./components/socialSlider";
 import MessageSender from "./components/contactForm";
+import Slider2 from "./components/slider2";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -154,6 +155,27 @@ export default function Home() {
           </div>
           <SolPrice></SolPrice>
         </div>
+      </div>
+      <Image
+        src="/images/Triangle.svg"
+        alt="tg"
+        width={0}
+        height={0}
+        style={{ width: "100%", height: "auto" }}
+        sizes="100vw"
+        className="triangle"
+      />
+      <div className="second_div">
+        <div className="second_content">
+          Grab Your Gear & Spread the Botman Vibes on CT.
+        </div>
+        {/*<div className="footer">botman live normul life.</div>*/}
+        <div>
+          <Slider2></Slider2>
+        </div>
+        {/*<div>
+          <AudioPlayer></AudioPlayer>
+        </div>*/}
       </div>
       {/*<div className="footer_div">Copyright © Botman 2024</div>*/}
     </div>

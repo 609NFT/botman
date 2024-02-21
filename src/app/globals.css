@@ -98,6 +98,9 @@ h2, p {
 #dexscreener-embed iframe{
   margin-top:40px;
 }
+.third_div{
+  height:640px !important;
+}
 }
 
 #dexscreener-embed{
@@ -229,7 +232,7 @@ h2, p {
 }
 
 .third_div{
-  height:750px;
+  height:580px;
   color:black;
 }
 
