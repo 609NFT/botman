@@ -288,6 +288,8 @@ h2, p {
   overflow: scroll;
   scroll-behavior: smooth;
   transition: scroll 0.3s ease-in-out;
+  background-color: white;
+    border-radius: 15px;
 }
 
 /* AudioToggle.css */
@@ -384,7 +386,7 @@ h2, p {
 
 body,html {
   color: rgb(var(--foreground-rgb));
-  background: url("website_bg.png") no-repeat center center fixed;
+  background: url("website_bg_spotlight.png") no-repeat center center fixed;
   font-family: 'Bangers', system-ui !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
