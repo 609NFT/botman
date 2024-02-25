@@ -87,7 +87,7 @@ export default function Home() {
             </a>
           </Tooltip>
           <Tooltip title="Telegram" placement="top">
-            <a target="_blank" href="https://t.me/botmancommunity">
+            <a target="_blank" href="https://t.me/botmancommunityportal">
               <Image
                 src="/images/telegram.png"
                 alt="tg"
