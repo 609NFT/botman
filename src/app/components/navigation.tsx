@@ -1,9 +1,14 @@
 // navigation.tsx
 import React, { useState } from "react";
 import Link from "next/link";
+import WalletAndTokenChecker from "./WalletAndTokenChecker";
+import { Button } from "react-bootstrap";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const handleClick = () => {
+    alert("Coming Soon...");
+  };
 
   return (
     <nav className="navbar">
@@ -30,6 +35,15 @@ const Navigation = () => {
           <Link href="/play" passHref>
             <span>Play</span>
           </Link>
+        </li>
+        <li>
+          <Button
+            variant="primary"
+            onClick={handleClick}
+            className="connectWallet"
+          >
+            Connect Wallet
+          </Button>
         </li>
         {/* Additional links as needed */}
       </ul>

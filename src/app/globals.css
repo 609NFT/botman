@@ -206,6 +206,15 @@ h2, p {
   }
 }
 
+.connectWallet{
+  padding: 0px 10px 0px 10px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .solPrice{
   position: fixed;

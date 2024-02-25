@@ -59,7 +59,7 @@ const WalletAndTokenChecker: React.FC = () => {
       ) : hasEnoughTokens ? (
         <Cave></Cave>
       ) : (
-        <p>Not enough tokens to access this feature.</p>
+        <p>Need more Botman.</p>
       )}
     </div>
   );
