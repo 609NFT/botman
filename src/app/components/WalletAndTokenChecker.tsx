@@ -55,7 +55,9 @@ const WalletAndTokenChecker: React.FC = () => {
   return (
     <div>
       {!walletAddress ? (
-        <button onClick={connectWallet}>Connect Wallet</button>
+        <button className="connectWallet" onClick={connectWallet}>
+          Connect Wallet
+        </button>
       ) : hasEnoughTokens ? (
         <Cave></Cave>
       ) : (

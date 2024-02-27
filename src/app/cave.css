@@ -1,6 +1,6 @@
 body {
-    color: rgb(var(--foreground-rgb));
-    background: url("/images/cave.jpeg") no-repeat center center fixed;
+    color: white;
+    background: url("/images/botcave2.gif") no-repeat center center fixed;
     font-family: 'Bangers', system-ui !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
