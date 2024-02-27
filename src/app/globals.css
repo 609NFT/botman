@@ -13,9 +13,9 @@
 .second_div{
   height:450px;
   background:#000000;
-  color:white;
+  color:white !important;
 }
-
+ 
 .price{
   position: fixed;
   bottom: 20px;
