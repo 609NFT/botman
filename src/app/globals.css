@@ -462,11 +462,16 @@ img{
 
 .about_p{
   padding:20px;
-  background: hsla(0,0%,100%,.5)!important;
+  background: white !important;
   text-align: left;
   border-radius:15px;
 }
 
 .about_row{
   margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.about_header{
+  color:white !important;
 }
