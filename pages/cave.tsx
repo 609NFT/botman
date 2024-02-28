@@ -1,16 +1,15 @@
 import "../src/app/cave.css";
 // App.tsx or App.jsx
-
+import WalletConnectionComponent from "@/app/components/WalletConnection";
 import React, { useState } from "react";
-import WalletAndTokenChecker from "@/app/components/WalletAndTokenChecker";
-import { Wallet } from "@mui/icons-material";
+//import WalletAndTokenChecker from "@/app/components/WalletAndTokenChecker";
 
 const App: React.FC = () => {
   const [walletAddress, setWalletAddress] = useState("");
 
   return (
     <div>
-      <WalletAndTokenChecker></WalletAndTokenChecker>
+      <WalletConnectionComponent></WalletConnectionComponent>
     </div>
   );
 };

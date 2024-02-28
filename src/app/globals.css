@@ -147,6 +147,7 @@ h2, p {
   gap: 10px; /* Adjust the space between navigation items */
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .nav-links li span, .nav-links li a { /* Updated for both span and a */
@@ -196,14 +197,35 @@ h2, p {
 }
 
 .connectWallet{
-  padding: 0px 10px 0px 10px !important;
-    background: white !important;
-    color: black !important;
     font-size: 16px !important;
     border-radius: 5px !important;
     cursor: pointer !important;
 }
 
+.wallet-adapter-button-trigger {
+  background: white !important;
+  color: black !important;
+  padding: 0px 10px 0px 10px !important;
+}
+
+.wallet-adapter-button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Bangers', system-ui !important;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  height: 36px !important;
+  padding: 0 24px;
+  border-radius: 4px;
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button {
+  height: 48px !important;
+}
 
 .solPrice{
   position: fixed;

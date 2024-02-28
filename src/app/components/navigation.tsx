@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import WalletAndTokenChecker from "./WalletAndTokenChecker";
+import WalletConnectionComponent from "./WalletConnection";
 import { Button } from "react-bootstrap";
 
 const Navigation = () => {
@@ -37,13 +38,7 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
-          <Button
-            variant="primary"
-            onClick={handleClick}
-            className="connectWallet"
-          >
-            Connect Wallet
-          </Button>
+          <WalletConnectionComponent></WalletConnectionComponent>
         </li>
         {/* Additional links as needed */}
       </ul>
