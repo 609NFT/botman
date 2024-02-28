@@ -1,7 +1,6 @@
 // navigation.tsx
 import React, { useState } from "react";
 import Link from "next/link";
-import WalletAndTokenChecker from "./WalletAndTokenChecker";
 import WalletConnectionComponent from "./WalletConnection";
 import { Button } from "react-bootstrap";
 
