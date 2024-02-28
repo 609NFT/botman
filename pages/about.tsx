@@ -103,7 +103,7 @@ export default function About() {
           </Col>
         </Row>
         <Row className="about_row align-items-center">
-          <Col sm={6}>
+          <Col>
             <h2 className="about_header">Glen Timpson</h2>
             <p className="about_p">
               Glens life before the LunarSol debacle was emblematic of Sothams
