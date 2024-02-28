@@ -11,7 +11,6 @@ import BotmanPrice from "./components/getBotmanPrice";
 import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
 import SocialsSlider from "./components/socialSlider";
-import MessageSender from "./components/contactForm";
 import Slider2 from "./components/slider2";
 
 export default function Home() {

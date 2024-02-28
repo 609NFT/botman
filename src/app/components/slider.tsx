@@ -12,7 +12,7 @@ export default function Slider() {
     // Your images array...
     {
       id: 1,
-      url: "https://i.postimg.cc/HnVsbwrv/botman1.jpg",
+      url: "../images/slider/botman1.jpg",
     },
     {
       id: 2,
