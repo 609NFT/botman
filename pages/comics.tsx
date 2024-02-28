@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../src/app/components/navigation";
 import "../src/app/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { TabContainer, Row, Col } from "react-bootstrap";
 import DownloadPDFButton from "@/app/components/DownloadPDFButton";
 import Image from "react-bootstrap";
 
@@ -15,7 +15,7 @@ export default function About() {
       ></link>
       <Navigation></Navigation>
 
-      <Container>
+      <TabContainer>
         <Row className="about_row align-items-center">
           <Col sm={6}>
             <a href="/images/The_Beginnings.pdf" target="_blank">
@@ -30,7 +30,7 @@ export default function About() {
             />
           </Col>
         </Row>
-      </Container>
+      </TabContainer>
     </div>
   );
 }

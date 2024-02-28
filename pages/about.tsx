@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../src/app/components/navigation";
 import "../src/app/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col, TabContainer } from "react-bootstrap";
 import Image from "react-bootstrap";
 
 export default function About() {
@@ -14,7 +14,7 @@ export default function About() {
       ></link>
       <Navigation></Navigation>
 
-      <Container>
+      <TabContainer>
         <Row className="about_row align-items-center">
           <Col>
             <h2 className="about_header">Introduction</h2>
@@ -42,14 +42,18 @@ export default function About() {
           <Col sm={6}>
             <h2 className="about_header">Sotham</h2>
             <p className="about_p">
-              Renowned for its avant-garde approach to the integration of
-              digital currency into every facet of daily life, Sotham has become
-              synonymous with innovation. From the way its residents transact
-              for basic necessities to the groundbreaking startups that line its
-              bustling streets, the city breathes a culture of advancement and
-              opportunity. Yet, beneath its glittering surface, Sotham embodies
-              the dual nature of any great endeavor: the promise of monumental
-              success shadowed closely by the risk of profound loss.
+              As we step into the year 2037, Sotham stands at the forefront of
+              digital currency and blockchain technology, seamlessly integrating
+              these innovations into the fabric of daily life. Renowned for its
+              cutting-edge approach, the city has become a beacon for pioneers
+              and investors alike, eager to explore the vast potential of
+              blockchain. Every transaction, from purchasing daily essentials to
+              the operations of groundbreaking startups, reflects Sothams
+              commitment to pushing the boundaries of whats possible. However,
+              this gleaming metropolis also presents a stark reminder of the
+              delicate balance between groundbreaking success and the
+              ever-present risk of failure.In the heart of Sotham, CityTech
+              towers over the cityscape...
             </p>
           </Col>
         </Row>
@@ -60,14 +64,19 @@ export default function About() {
               CityTech is Sothams News Network that operates on the cutting
               edge, a 24/7 operation that broadcasts a continuous stream of
               data, news, and analysis directly into the homes and devices of
-              Sothams residents.<br></br>
+              Sothams residents. Watching CTNN isnt just a habit in Sotham—its a
+              way of life.<br></br>
               <br></br>With programming that ranges from breaking news and live
               event coverage to in-depth discussions on market trends, CityTech
               is the digital town square of Sotham. It serves as a critical
               platform for announcements from the crypto industrys giants,
               updates on the latest investment opportunities, and spotlights on
               promising startups poised to become the next behemoths of the
-              blockchain world.
+              blockchain world.<br></br>
+              <br></br>But not even CTNN was prepared for the seismic shock that
+              was about to ripple through the very fabric of Sotham. The
+              LunarSol event, looming on the horizon, was set to challenge
+              everything…
             </p>
           </Col>
           <Col sm={6}>
@@ -81,22 +90,35 @@ export default function About() {
           <Col sm={6}>
             <h2 className="about_header">LunarSol</h2>
             <p className="about_p">
-              The arrival of LunarSol in Sotham was heralded as the dawn of a
-              new era in digital finance, capturing the citys collective
-              imagination and promising to redefine the cryptocurrency landscape
-              with its pioneering blockchain technology. However, the glittering
-              promise of LunarSol culminated in an event that would forever
-              alter the course of Sothams history. In an unforeseen betrayal,
-              the company orchestrated a devastating rug pull, disappearing into
-              the ether with over $220 million of invested capital. This seismic
-              event sent shockwaves throughout Sotham, leaving a scar on the
-              citys psyche that still remains to this day. The LunarSol debacle
-              became the defining moment for countless individuals, marking a
-              before and after in the citys relationship with digital finance.
-              To this day, the architects behind LunarSols grand deception
-              remain at large, their identities shrouded in mystery and their
-              actions a dark cloud hanging over Sotham, serving as a constant
-              reminder of the fragility of trust in the digital age.
+              In 2034, Sotham was on the brink of a revolution, thanks to a
+              promising startup named LunarSol. With CityTechs comprehensive
+              coverage, the citys anticipation reached fever pitch. Hailed as
+              the dawn of a new digital finance era by CTNN, LunarSol was poised
+              to redefine the cryptocurrency landscape with its innovative
+              blockchain technology. The city, captivated by the promise of a
+              brighter future, watched as LunarSol was celebrated as the beacon
+              of tomorrows currency.<br></br>
+              <br></br>Yet, this promised future dimmed abruptly. LunarSol, in a
+              shocking turn of events, orchestrated a rug pull that saw over $10
+              billion of investor capital vanish. This betrayal didnt just break
+              Sothams trust; it altered the citys course, sending shockwaves
+              through every household glued to CTNN.<br></br>
+              <br></br>The aftermath was swift and severe. As the city grappled
+              with the news, a palpable wave of disbelief and distress swept
+              across its populace. Amidst the turmoil, a previously unknown
+              affliction emerged – Autism, a stark byproduct of LunarSols
+              deceit. This condition, marked by a profound financial shock,
+              leads to dramatically altering an individuals behavior and mental
+              state. It manifests in a series of acute symptoms: uncontrollable
+              dribbling, a sharp decline in social skills, uncontrollable
+              revengeful thoughts, and a propensity for making irrational
+              decisions.<br></br>
+              <br></br>Despite Sothams strides towards recovery, the legacy of
+              LunarSols treachery remains indelible, casting a long shadow over
+              the city. The architects of this deception are still at large,
+              leaving behind not just financial devastation but the rise of
+              Autism, a constant reminder of the fragility of trust in the face
+              of innovation…
             </p>
           </Col>
         </Row>
@@ -190,7 +212,7 @@ export default function About() {
             </p>
           </Col>
         </Row>
-      </Container>
+      </TabContainer>
     </div>
   );
 }
