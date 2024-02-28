@@ -60,7 +60,7 @@ export default function Slider() {
     },
     {
       id: 14,
-      url: "https://i.postimg.cc/Fs8qmN4q/photo-2024-02-22-07-54-39.jpg",
+      url: "https://i.postimg.cc/ydKK0hWN/coinbase.jpg",
     },
   ];
 
