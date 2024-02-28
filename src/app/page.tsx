@@ -180,9 +180,7 @@ export default function Home() {
         className="triangle"
       />
       <div className="second_div">
-        <div className="second_content">
-          Grab Your Gear & Spread the Botman Vibes on CT.
-        </div>
+        <div className="second_content">Spread the Botman Vibes on CT.</div>
         {/*<div className="footer">botman live normul life.</div>*/}
         <div>
           <Slider2></Slider2>
