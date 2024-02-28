@@ -32,6 +32,11 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
+          <Link href="/comics" passHref>
+            <span>Comics</span>
+          </Link>
+        </li>
+        <li>
           <Link href="/play" passHref>
             <span>Play</span>
           </Link>
