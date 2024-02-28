@@ -16,26 +16,6 @@ export default function About() {
 
       <TabContainer>
         <Row className="about_row align-items-center">
-          <Col>
-            <h2 className="about_header">Introduction</h2>
-            <p className="about_p">
-              Three years have passed since the infamous LunarSol saga turned
-              Sothams world upside down, transforming what was once whispered as
-              urban legend into a cautionary tale etched in the digital annals
-              of the city. But its not just the skyscrapers that reach for the
-              clouds in this bustling metropolis; its also the tales of a
-              certain caped crusader that have really taken flight. Meet Botman:
-              Sothams self-proclaimed hero, struck by Autism in the wake of the
-              LunarSol chaos, who now spends his days roaming the streets of
-              Sotham, trying to protect its residents. His superpower? The
-              profound ability to elevate well-meaning to new, catastrophic
-              heights, turning every attempt to help into a slapstick symphony
-              that leaves the city teetering between erecting a statue in his
-              honor or banning him from using adhesive tape unsupervised.
-            </p>
-          </Col>
-        </Row>
-        <Row className="about_row align-items-center">
           <Col sm={6}>
             <img className="about_image" src="/images/sotham.png"></img>
           </Col>
@@ -123,92 +103,86 @@ export default function About() {
           </Col>
         </Row>
         <Row className="about_row align-items-center">
-          <Col>
-            <h2 className="about_header">Autism</h2>
+          <Col sm={6}>
+            <h2 className="about_header">Glen Timpson</h2>
             <p className="about_p">
-              Autism is a unique affliction that haunts the corridors of the
-              cryptocurrency world, triggered by the catastrophic loss of funds
-              through deceitful rug pulls. This sudden financial shock can
-              dramatically alter an individuals behavior and mental state,
-              manifesting in a series of acute symptoms: uncontrollable
-              dribbling, a marked decline in social skills, the emergence of
-              revengeful thoughts, and a propensity for making irrational
-              decisions. These manifestations of Autism can endure for years,
-              holding individuals in a grip from which there seems no escape, as
-              no medical remedy exists. However, those struck by this condition
-              do, with time, find their way back to themselves, emerging from
-              the depths of their despair to reclaim their place in the world.
+              Glens life before the LunarSol debacle was emblematic of Sothams
+              blue-collar grit combined with the digital ages dreams. In a city
+              renowned for pioneering the blockchain frontier, Glen found his
+              place among those who kept its wheels turning. By day, he
+              navigated the physical toil of manual labor, a testament to the
+              citys industrial backbone. By night, he immersed himself in the
+              virtual gold rush of cryptocurrency, his eyes glued to the
+              flickering lights of CityTech News Network (CTNN), the heartbeat
+              of Sothams crypto pulse.<br></br>
+              <br></br>Despite his modest earnings, Glen was a diligent saver,
+              each dollar earmarked with purpose. A portion of his hard-earned
+              money always found its way into the latest crypto ventures. Glen
+              was no speculator; he approached his investments with the same
+              blue-collar work ethic that guided his life—researched, reasoned,
+              but always with a hint of hope that one of these digital seeds
+              would bloom into the financial windfall he dreamt of.<br></br>
+              <br></br>Sotham, with its electric blend of innovation and
+              opportunity, fueled Glens aspirations. Here, in the Silicon Valley
+              of cryptocurrency, every new coin, every ICO, felt like a shot at
+              transcending his current existence. CTNNs constant stream of
+              updates, breakthroughs, and expert analyses was more than just
+              information for Glen, it was a source of hope. He wasnt alone in
+              his quest; the city thrummed with the collective ambition of
+              thousands like him, each chasing their slice of the digital
+              Valhalla.<br></br>
+              <br></br>Yet, for all his dreams and disciplined investments,
+              Glens life remained firmly rooted in the reality of his
+              blue-collar world. It was a life of balance, straddling the line
+              between the tangible sweat of his daily labor and the intangible
+              flicker of digital currencies that lit up his portfolio. The
+              promise of blockchain was a beacon of hope in Glens life, a light
+              that promised a bridge from his present to a future filled with
+              possibility.<br></br>
+              <br></br>The LunarSol event wasnt just a catastrophe; it was Glens
+              personal apocalypse. Swept up in the FOMO surrounding LunarSols
+              promising venture, Glen had invested all his savings, both digital
+              and fiat, into what he believed was the opportunity of a lifetime.
+              He watched in disbelief as everything vanished in the deceitful
+              rug pull. This betrayal didnt just empty his wallet; it plunged
+              him into an unknown darkness…
             </p>
           </Col>
         </Row>
         <Row className="about_row align-items-center">
           <Col>
-            <h2 className="about_header">Backstory: How Glen Became Botman</h2>
+            <h2 className="about_header">Botman is Born</h2>
             <p className="about_p">
-              Back in 2034, the landscape of society is irrevocably altered by
-              the integration of cryptocurrency and blockchain technology into
-              the fabric of everyday life. From banking operations to the casual
-              acquisition of consumer goods, digital currency reigns supreme,
-              especially in larger cities. Yet, Sotham stands apart as the
-              Silicon Valley of this digital gold rush, a beacon for those drawn
-              to the forefront of blockchain innovation and investment
-              opportunities. Its a city where dreams of digital fortunes draw in
-              investors, venture capitalists, and developers from all corners of
-              the globe, promising a shot at achieving Valhalla in the crypto
-              realm. However, the harsh reality is that while a select few reach
-              unparalleled heights, the majority depart with nothing but
-              shattered dreams and a profound sense of disillusionment.<br></br>
+              In the aftermath, Glen found himself lost in a fog he couldnt
+              explain. The world seemed to shift under his feet, leaving him
+              disoriented and isolated. Symptoms emerged that were foreign and
+              unsettling—uncontrollable drooling and a mind clouded with
+              vengeance. At the time, no one realised that these were the
+              manifestations of Autism.<br></br>
               <br></br>
-              CityTech, Sothams premier news network, operates tirelessly,
-              broadcasting the pulse of the crypto world through 24/7 coverage.
-              From breaking news and live reports on the industrys latest
-              developments to real-time updates on investment prospects,
-              start-ups, and job openings, staying glued to CityTech is an
-              unspoken mandate for anyone hoping to carve out their niche in
-              Sothams competitive landscape.<br></br>
+              Glens struggle was silent and solitary. Without understanding what
+              was happening to him, he faced each day with a growing sense of
+              detachment from the world he once navigated with confidence. The
+              city of Sotham slowly moved on, but for Glen, time seemed to stand
+              still, caught in the grip of a condition that had yet to be named.
               <br></br>
-              Glen, a product of Sothams blue-collar backbone, spent his
-              formative years toiling in local stores and tackling odd jobs,
-              amassing savings with a diligence born of humble beginnings. One
-              fateful night, as Glen was moments away from shutting down his
-              computer, a breaking news alert from CityTech seized his
-              attention: LunarSol, a new crypto startup, was making its way to
-              Sotham. The rumor mill had been abuzz with whispers of a
-              game-changing enterprise set to descend upon the city, but it was
-              only now that speculation crystallized into reality. Electrified
-              by the potential before him, Glen devoted the entire night to
-              researching LunarSol, swept up in the tidal wave of excitement
-              that gripped the city as influencers and media outlets heralded
-              the startup as the next big thing.<br></br>
-              <br></br>In response to the frenzied anticipation, LunarSol
-              announced an exclusive ICO for Sothams residents, a gesture of
-              gratitude for their fervent support. The news ignited an
-              unprecedented frenzy, with the contagion of FOMO infiltrating
-              every corner of Sotham. Glen, like many others, found himself
-              unable to resist the allure, his adrenaline spiking at the
-              prospect of securing a piece of what was touted as a guaranteed
-              windfall.<br></br>
               <br></br>
-              In the days leading up to the ICO, Glen liquidated his existing
-              investments at a loss, desperate to gather more funds for what he
-              believed to be a once-in-a-lifetime opportunity. When even this
-              extreme measure proved insufficient, he resorted to maxing out his
-              crypto credit limits, convinced of the infallibility of his
-              gamble.<br></br>
-              <br></br>However, in the 14th hour of the ICO, disaster struck.
-              The developers behind LunarSol executed a rug pull, vanishing with
-              over $220 million of investor funds. The magnitude of Glens loss
-              in that transaction remains unknown, but the fallout was
-              catastrophic. Glen, along with countless others, succumbed to
-              Autism, a condition marked by a sudden onslaught of symptoms
-              including loss of social skills, dribbling, and a propensity for
-              making irrational decisions—a direct consequence of the severe
-              financial loss and betrayal.<br></br>
-              <br></br>Whilst in the grips of Autism, driven by a muddled mix of
-              despair and dribble, some residents descended into their closets
-              and reamerged, lets say, differently. Unbeknownst to Sotham at the
-              time, that was the moment the most unlikely of heros was born:
-              Botman.
+              Caught in the grip of a condition that had yet to be named, Glen
+              faced each day with a growing sense of detachment. The city of
+              Sotham, vibrant and relentless, moved on around him. Yet, in the
+              solitude of his struggle, a change was brewing—a change that would
+              redefine his existence and the city itself.<br></br>
+              <br></br>One day, amidst the clutter of his small apartment, Glen
+              stumbled upon a makeshift Halloween costume—a superhero outfit he
+              had cobbled together years ago. Something about the costume
+              stirred a distant part of him. Without a plan or clear reasoning,
+              he decided to don the costume. Looking in the mirror, he said one
+              simple word that would alter the future of Sotham: “Botman.”
+              Leaving Glen behind, Botman ventured out, cloaked in his new
+              identity. He was unaware that he wasnt alone in his struggle. The
+              city whispered tales of others who, like Botman, were still
+              ensnared by Autisms grip. Some found themselves on paths parallel
+              to Botmans, donning their own masks of resilience.
             </p>
           </Col>
         </Row>
