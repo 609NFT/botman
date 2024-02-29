@@ -12,31 +12,35 @@ export default function Slider() {
     // Your images array...
     {
       id: 1,
-      url: "https://i.postimg.cc/gJ0v5gpr/photo-2024-02-07-15-54-54.jpg",
+      url: "https://i.postimg.cc/ydKK0hWN/coinbase.jpg",
     },
     {
       id: 2,
-      url: "https://i.postimg.cc/44QdNcKr/photo-2024-02-08-16-19-53.jpg",
+      url: "https://i.postimg.cc/wMjLPvq0/photo-2024-02-12-12-14-36.jpg",
     },
     {
       id: 3,
-      url: "https://i.postimg.cc/zBFWfsQS/botman2.jpg",
+      url: "https://i.postimg.cc/gJ0v5gpr/photo-2024-02-07-15-54-54.jpg",
     },
     {
       id: 4,
-      url: "https://i.postimg.cc/zGrYLt97/photo-2024-02-08-16-19-40.jpg",
+      url: "https://i.postimg.cc/44QdNcKr/photo-2024-02-08-16-19-53.jpg",
     },
     {
       id: 5,
-      url: "https://i.postimg.cc/D00yMj2L/photo-2024-02-08-16-19-48.jpg",
+      url: "https://i.postimg.cc/zBFWfsQS/botman2.jpg",
     },
     {
       id: 6,
-      url: "https://i.postimg.cc/zBPzmC2h/photo-2024-02-08-16-19-45.jpg",
+      url: "https://i.postimg.cc/zGrYLt97/photo-2024-02-08-16-19-40.jpg",
     },
     {
       id: 7,
-      url: "https://i.postimg.cc/wMjLPvq0/photo-2024-02-12-12-14-36.jpg",
+      url: "https://i.postimg.cc/D00yMj2L/photo-2024-02-08-16-19-48.jpg",
+    },
+    {
+      id: 8,
+      url: "https://i.postimg.cc/zBPzmC2h/photo-2024-02-08-16-19-45.jpg",
     },
     {
       id: 9,
@@ -57,10 +61,6 @@ export default function Slider() {
     {
       id: 13,
       url: "https://i.postimg.cc/5NCs3M6p/photo-2024-02-20-19-25-28.jpg",
-    },
-    {
-      id: 14,
-      url: "https://i.postimg.cc/ydKK0hWN/coinbase.jpg",
     },
   ];
 
