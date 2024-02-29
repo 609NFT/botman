@@ -74,6 +74,17 @@ export default function Home() {
               />
             </a>
           </Tooltip>
+          <Tooltip title="Instagram" placement="top">
+            <a target="_blank" href="https://www.instagram.com/botmanonsolana/">
+              <Image
+                src="/images/ig.png"
+                alt="instagram"
+                className="twitter"
+                width={30}
+                height={30}
+              />
+            </a>
+          </Tooltip>
           <Tooltip title="Twitter" placement="top">
             <a target="_blank" href="https://twitter.com/Botmansolana">
               <Image
