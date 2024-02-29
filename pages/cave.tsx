@@ -1,17 +1,17 @@
+import React from "react";
+import Navigation from "../src/app/components/navigation";
+import GameModal from "@/app/components/capedCrusader";
 import "../src/app/cave.css";
-// App.tsx or App.jsx
-import WalletConnectionComponent from "@/app/components/WalletConnection";
-import React, { useState } from "react";
-//import WalletAndTokenChecker from "@/app/components/WalletAndTokenChecker";
 
-const App: React.FC = () => {
-  const [walletAddress, setWalletAddress] = useState("");
-
+export default function Play() {
   return (
     <div>
-      <WalletConnectionComponent></WalletConnectionComponent>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+        rel="stylesheet"
+      ></link>
+      <Navigation></Navigation>
+      <GameModal></GameModal>
     </div>
   );
-};
-
-export default App;
+}
