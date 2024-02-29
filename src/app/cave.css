@@ -144,7 +144,7 @@ h2, p {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 10px; /* Adjust the space between navigation items */
+  gap: 25px; /* Adjust the space between navigation items */
   margin: 0;
   padding: 0;
   align-items: center;
