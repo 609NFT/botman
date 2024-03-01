@@ -413,8 +413,12 @@ h2, p {
   cursor: pointer;
 }
 
+.games{
+  margin-top:45px !important;
+}
+
 body,html {
-  color: white;
+  color: white !important;
   background: url("/images/botcave2.gif") no-repeat center center fixed;
   font-family: 'Bangers', system-ui !important;
   -webkit-background-size: cover;
