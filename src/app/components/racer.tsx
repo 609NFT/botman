@@ -17,7 +17,7 @@ function RacerModal() {
       <a onClick={openModal}>
         <img src="/images/crusader.png" className="play_crusader"></img>
         <br></br>
-        <label>Batman vs. Zombies</label>
+        <label>Botman vs. Zombies</label>
       </a>
 
       {showModal && (
