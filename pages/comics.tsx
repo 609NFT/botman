@@ -20,7 +20,7 @@ export default function About() {
         <Row className="about_row align-items-center">
           <Col sm={6}>
             <a href="/images/The_Beginnings.pdf" target="_blank">
-              <img className="comics_image" src="/images/1.png"></img>
+              <img className="comic_book" src="/images/1.png"></img>
             </a>
           </Col>
           <Col sm={6}>
