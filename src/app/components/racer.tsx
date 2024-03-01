@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function GameModal() {
+function RacerModal() {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => setShowModal(true);
@@ -17,7 +17,7 @@ function GameModal() {
       <a onClick={openModal}>
         <img src="/images/crusader.png" className="play_crusader"></img>
         <br></br>
-        <label>Caped Crusader</label>
+        <label>Batman vs. Zombies</label>
       </a>
 
       {showModal && (
@@ -46,7 +46,7 @@ function GameModal() {
             onClick={stopPropagation} // Prevent clicks within the modal from closing it
           >
             <iframe
-              src="https://www.play-games.com/iframe/29554.html"
+              src="https://www.play-games.com/embed/6313.html"
               style={{
                 width: "100%",
                 height: "100%",
@@ -64,4 +64,4 @@ function GameModal() {
   );
 }
 
-export default GameModal;
+export default RacerModal;

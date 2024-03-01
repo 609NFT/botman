@@ -1,11 +1,12 @@
 import React from "react";
 import Navigation from "../src/app/components/navigation";
+import ChatComponent from "@/app/components/alfred";
+import "../src/app/globals.css";
 
 const Contact = () => (
   <div>
     <Navigation />
-    <h1>Contact Us</h1>
-    <p>This is the contact page.</p>
+    <ChatComponent></ChatComponent>
   </div>
 );
 

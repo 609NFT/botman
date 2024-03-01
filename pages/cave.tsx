@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../src/app/components/navigation";
 import GameModal from "@/app/components/capedCrusader";
+import RacerModal from "@/app/components/racer";
 import "../src/app/cave.css";
 
 export default function Play() {
@@ -12,6 +13,7 @@ export default function Play() {
       ></link>
       <Navigation></Navigation>
       <GameModal></GameModal>
+      <RacerModal></RacerModal>
     </div>
   );
 }
