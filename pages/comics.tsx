@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { TabContainer, Row, Col } from "react-bootstrap";
 import DownloadPDFButton from "@/app/components/DownloadPDFButton";
 import Image from "react-bootstrap";
+import AudioToggle from "@/app/components/audio";
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
         rel="stylesheet"
       ></link>
       <Navigation></Navigation>
-
+      <AudioToggle></AudioToggle>
       <TabContainer>
         <Row className="about_row align-items-center">
           <Col sm={6}>
