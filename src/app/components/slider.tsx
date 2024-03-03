@@ -16,7 +16,7 @@ export default function Slider() {
     },
     {
       id: 2,
-      url: "https://i.postimg.cc/QCdr0k5m/photo-2024-03-01-14-52-05.jpg",
+      url: "https://i.postimg.cc/x1hrjKFN/photo-2024-03-03-18-00-56.jpg",
     },
     {
       id: 3,
@@ -65,6 +65,14 @@ export default function Slider() {
     {
       id: 14,
       url: "https://i.postimg.cc/wMjLPvq0/photo-2024-02-12-12-14-36.jpg",
+    },
+    {
+      id: 15,
+      url: "https://i.postimg.cc/CdpYKbK4/photo-2024-03-03-18-00-28.jpg",
+    },
+    {
+      id: 16,
+      url: "https://i.postimg.cc/QCdr0k5m/photo-2024-03-01-14-52-05.jpg",
     },
   ];
 
