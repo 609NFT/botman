@@ -15,7 +15,7 @@ const ChatComponent = () => {
     setMessages((prevMessages) => [...prevMessages, newMessage]);
 
     try {
-      const response = await axios.post("/api/chat", {
+      const response = await axios.post("/chat", {
         message: userInput.trim(),
       });
       const assistantMessage = {
