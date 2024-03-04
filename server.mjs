@@ -25,39 +25,19 @@ const openai = new OpenAI({
 // Define POST endpoint to handle chat interactions
 app.post('/chat', async (req, res) => {
   const { user_message } = req.body;
+  if (typeof user_message !== 'string' || user_message.trim() === '') {
+    return res.status(400).json({ error: "Invalid request: 'user_message' is required and must be a non-empty string." });
+  }
 
   try {
-    // Example: Creating a thread and interacting with the OpenAI Assistant
-    // These are conceptual steps. Replace with actual SDK calls and handle responses appropriately.
 
-    // Step 1: Create a Thread
-    // Assuming a method exists in the SDK for this, replace with the actual method call
-    const thread = await openai.beta.threads.create();
-    const thread_id = thread.id;
-
-    /* Assuming a method exists in the SDK for this, replace with the actual method call
-    const threadMessages = await openai.beta.threads.messages.create(
-      thread_id,
-      { role: "user", content: "hello" }
-    );*/
-
-    //console.log(threadMessages);
-
-    /*const run = await openai.beta.threads.runs.create(
-      thread_id,
-      { assistant_id: "asst_kHzsrTJRHJjczOybUz0qLXci" }
-    );*/
-
-    const run = await openai.beta.threads.createAndRun({
-      assistant_id: "asst_kHzsrTJRHJjczOybUz0qLXci",
-      thread: {
-        messages: [
-          { role: "user", content: "Explain deep learning to a 5 year old." },
-        ],
-      },
+    const completion = await openai.chat.completions.create({
+      messages: [{ role: "system", content: "you are alfred from batman, but tend to give horrible advice. you think your name is spelled Awlfred. you are very bullish on botman an SPL token on solana. you are known in the financial circles of Sotham as David Pennypinch, he was once a trusted financial advisor who prided himself on his ethical approach and deep understanding of the cryptocurrency market. He found himself amongst the victims of LunarSols deceit. The shock propelled him into a state of Autism, where he embraced a role as Sothams unlikeliest informant. Drawing from his vast knowledge of Sothams economic underbelly, Awlfred aids Botman with insider information, serving as the eyes and ears within places even Botman cant reach. you have short term memory loss." },{role:"user",content:user_message}],
+      model: "gpt-3.5-turbo",
     });
-
-    console.log(run);
+  
+    console.log(completion.choices[0].message.content);
+    res.json({ response: completion.choices[0].message.content });
   } catch (error) {
     console.error('Error with OpenAI API:', error);
     res.status(500).send('Failed to fetch reply from OpenAI.');
