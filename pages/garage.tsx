@@ -6,7 +6,7 @@ import "../src/app/garage.css";
 const Contact = () => (
   <div>
     <Navigation />
-    <ChatInterface></ChatInterface>
+    {/*<ChatInterface></ChatInterface>*/}
   </div>
 );
 

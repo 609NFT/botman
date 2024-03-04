@@ -42,6 +42,11 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
+          <Link href="/garage" passHref>
+            <span>Garage</span>
+          </Link>
+        </li>
+        <li>
           <WalletConnectionComponent></WalletConnectionComponent>
         </li>
         {/* Additional links as needed */}
