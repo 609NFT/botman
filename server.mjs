@@ -14,7 +14,9 @@ dotenv.config();
 const app = express();
 
 // Apply middleware
-app.use(cors()); // Enable CORS to handle cross-origin requests
+app.use(cors({
+  origin: 'https://thebotman.xyz'
+}));
 app.use(express.json()); // Parse JSON request bodies
 
 // Initialize the OpenAI client with your API key
