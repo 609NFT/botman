@@ -36,7 +36,7 @@ app.post('/chat', async (req, res) => {
       model: "gpt-3.5-turbo",
     });
   
-    console.log(completion.choices[0].message.content);
+    //console.log(completion.choices[0].message.content);
     res.json({ response: completion.choices[0].message.content });
   } catch (error) {
     console.error('Error with OpenAI API:', error);

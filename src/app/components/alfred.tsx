@@ -1,4 +1,4 @@
-import React, { useState, FormEvent } from "react";
+import React, { useState } from "react";
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
@@ -6,33 +6,33 @@ const ChatInterface = () => {
   ]);
   const [userMessage, setUserMessage] = useState("");
 
-  // Use React.FormEvent<HTMLFormElement> to type the event parameter
-  const handleSendMessage = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSendMessage = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (userMessage.trim() === "") return;
+    if (!userMessage.trim()) return;
 
-    const newMessage = { sender: "user", content: userMessage };
-    setMessages((messages) => [...messages, newMessage]);
+    setMessages((messages) => [
+      ...messages,
+      { sender: "user", content: userMessage },
+    ]);
 
     try {
-      const response = await fetch("http://localhost:3001/chat", {
+      const response = await fetch("https://thebotman.xyz/chat", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ user_message: userMessage }),
       });
 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error("Network response was not ok");
       }
 
       const data = await response.json();
-      const reply = { sender: "assistant", content: data.response }; // Adjust 'data.response' based on your API's response structure
-      setMessages((messages) => [...messages, reply]);
+      setMessages((messages) => [
+        ...messages,
+        { sender: "assistant", content: data.response },
+      ]);
     } catch (error) {
-      console.error("Failed to fetch assistant's reply:", error);
-      // Optionally handle the error by displaying a message to the user
+      console.error("Failed to fetch:", error);
     }
 
     setUserMessage("");
@@ -42,8 +42,17 @@ const ChatInterface = () => {
     <div className="chat-container">
       <div className="messages-container">
         {messages.map((message, index) => (
-          <div key={index} className={`message-bubble ${message.sender}`}>
-            {message.content}
+          <div key={index} className={`message-row ${message.sender}-row`}>
+            {message.sender === "assistant" && (
+              <img
+                src="/images/alfred_pfp.png"
+                alt="Assistant"
+                className="profile-pic"
+              />
+            )}
+            <div className={`message-bubble ${message.sender}`}>
+              {message.content}
+            </div>
           </div>
         ))}
       </div>
@@ -62,33 +71,69 @@ const ChatInterface = () => {
           flex-direction: column;
           max-width: 600px;
           margin: auto;
+          background-color: rgba(255, 255, 255, 0.5);
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .messages-container {
           flex-grow: 1;
           padding: 20px;
           overflow-y: auto;
         }
-        .message-bubble {
+        .message-row {
+          display: flex;
           margin-bottom: 12px;
+        }
+        .user-row {
+          justify-content: flex-end;
+        }
+        .message-bubble {
           padding: 10px 20px;
           border-radius: 20px;
           max-width: 70%;
+          word-wrap: break-word;
+          font-size: 16px;
+          line-height: 1.4;
         }
         .user {
-          align-self: flex-end;
           background-color: #007bff;
           color: white;
+          border-radius: 20px 20px 0 20px;
         }
         .assistant {
-          align-self: flex-start;
-          background-color: #f1f0f0;
+          background-color: #e5e5ea;
+          color: black;
+          border-radius: 20px 20px 20px 0;
+        }
+        .profile-pic {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-right: 8px;
+          align-self: flex-end;
         }
         .message-form {
           display: flex;
+          padding: 10px;
+          background: #fff;
+          border-top: 1px solid #ccc;
+        }
+        .message-form input,
+        .message-form button {
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 20px;
         }
         .message-form input {
           flex-grow: 1;
           margin-right: 8px;
+        }
+        .message-form button {
+          background-color: #007bff;
+          color: white;
+          border: none;
+          cursor: pointer;
         }
       `}</style>
     </div>
