@@ -15,7 +15,7 @@ const app = express();
 
 // Apply middleware
 app.use(cors({
-  origin: 'https://thebotman.xyz'
+  origin: 'https://the-botman-dfb7af4dfa1b.herokuapp.com/'
 }));
 app.use(express.json()); // Parse JSON request bodies
 
