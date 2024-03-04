@@ -1,11 +1,7 @@
-// Import necessary packages
-import express from 'express';
-import dotenv from 'dotenv';
-import cors from 'cors';
-
-// Assuming the correct import based on your setup
-// This may need adjustment based on the actual OpenAI Node.js SDK usage
-import { OpenAI } from 'openai';
+const express = require('express');
+const dotenv = require('dotenv');
+const cors = require('cors');
+const { OpenAI } = require('openai');
 
 // Load environment variables from .env file
 dotenv.config();
@@ -13,9 +9,15 @@ dotenv.config();
 // Initialize Express application
 const app = express();
 
+const allowedOrigins = [
+  'https://the-botman-dfb7af4dfa1b.herokuapp.com',
+  'http://localhost:3001',
+  'http://localhost:3000' // Example for local development
+];
+
 // Apply middleware
 app.use(cors({
-  origin: 'https://the-botman-dfb7af4dfa1b.herokuapp.com/'
+  origin: allowedOrigins
 }));
 app.use(express.json()); // Parse JSON request bodies
 

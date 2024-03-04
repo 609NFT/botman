@@ -2,14 +2,13 @@
     "name": "botman",
     "version": "0.1.0",
     "homepage": ".",
-    "type": "module",
     "private": true,
     "scripts": {
-        "start-server": "node server.mjs",
+        "start-server": "node server.js",
         "start-client": "npm start",
         "dev": "concurrently \"npm run start-server\" \"npm run start-client\"",
         "build": "next build",
-        "start": "next start && node server.mjs",
+        "start": "next start && node server.js",
         "lint": "next lint"
     },
     "dependencies": {
