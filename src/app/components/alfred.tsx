@@ -1,53 +1,41 @@
-import React, { useState, FormEvent } from "react";
-import axios from "axios";
+import React, { useState } from "react";
 
-const ChatComponent = () => {
-  const [messages, setMessages] = useState<
-    Array<{ sender: string; text: string }>
-  >([]);
-  const [userInput, setUserInput] = useState<string>("");
+function ChatComponent() {
+  const [message, setMessage] = useState(""); // User's message
+  const [response, setResponse] = useState(""); // Server's response
 
-  const handleSendMessage = async (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    if (!userInput.trim()) return;
-
-    const newMessage = { sender: "User", text: userInput.trim() };
-    setMessages((prevMessages) => [...prevMessages, newMessage]);
-
+  const sendMessage = async () => {
     try {
-      const response = await axios.post("/chat", {
-        message: userInput.trim(),
+      const res = await fetch("http://localhost:3001/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message }),
       });
-      const assistantMessage = {
-        sender: "Assistant",
-        text: response.data.message,
-      };
-      setMessages((prevMessages) => [...prevMessages, assistantMessage]);
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`);
+      }
+      const data = await res.json();
+      setResponse(data.reply); // Update the UI with the response
     } catch (error) {
-      console.error("Error fetching response:", error);
-      // Optionally handle errors, e.g., show an error message
+      console.error("Error sending message:", error);
+      setResponse("Failed to get a reply."); // Handle error case in the UI
     }
-
-    setUserInput(""); // Clear the input field
   };
 
   return (
     <div>
-      {/* Chat messages and input field */}
-      <form onSubmit={handleSendMessage}>
-        <input
-          type="text"
-          value={userInput}
-          onChange={(e) => setUserInput(e.target.value)}
-          style={{ width: "calc(100% - 100px)", marginRight: "10px" }}
-          placeholder="Type your message here..."
-        />
-        <button type="submit" style={{ width: "80px" }}>
-          Send
-        </button>
-      </form>
+      <input
+        type="text"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        placeholder="Type a message..."
+      />
+      <button onClick={sendMessage}>Send</button>
+      <div>Reply: {response}</div>
     </div>
   );
-};
+}
 
 export default ChatComponent;
