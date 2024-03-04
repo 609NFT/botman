@@ -16,11 +16,14 @@ const ChatInterface = () => {
     ]);
 
     try {
-      const response = await fetch("http://localhost:3001/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ user_message: userMessage }),
-      });
+      const response = await fetch(
+        "https://the-botman-dfb7af4dfa1b.herokuapp.com/chat",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_message: userMessage }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok");
