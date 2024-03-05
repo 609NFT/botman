@@ -9,7 +9,8 @@ const app = express();
 const allowedOrigins = [
   'https://the-botman-dfb7af4dfa1b.herokuapp.com',
   'http://localhost:3001',
-  'http://localhost:3000' // Example for local development
+  'http://localhost:3000',
+  'https://thebotman.xyz/' // Example for local development
 ];
 
 // Apply middleware
