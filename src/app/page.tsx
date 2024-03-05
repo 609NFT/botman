@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { Button, Nav, NavItem, Navbar } from "react-bootstrap";
 import Tooltip from "@mui/material/Tooltip";
 import Slider from "./components/slider";
-import AudioPlayer from "./components/audio";
 import MemeGenerator from "./components/meme";
 import Modal from "./components/modal";
 import BotmanPrice from "./components/getBotmanPrice";
@@ -12,6 +11,7 @@ import SolPrice from "./components/getSolPrice";
 import Navigation from "./components/navigation";
 import SocialsSlider from "./components/socialSlider";
 import Slider2 from "./components/slider2";
+import TwitterTimeline from "./components/TwitterTimeline";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -189,15 +189,12 @@ export default function Home() {
         sizes="100vw"
         className="triangle"
       />
-      <div className="second_div">
-        <div className="second_content">Spread the Botman Vibes on CT.</div>
+      <div className="fourth_div">
+        <div className="third_content">Spread the Botman Vibes on CT.</div>
         {/*<div className="footer">botman live normul life.</div>*/}
         <div>
-          <Slider2></Slider2>
+          <TwitterTimeline></TwitterTimeline>
         </div>
-        {/*<div>
-          <AudioPlayer></AudioPlayer>
-        </div>*/}
       </div>
       {/*<div className="footer_div">Copyright © Botman 2024</div>*/}
     </div>

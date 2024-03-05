@@ -251,9 +251,22 @@ h2, p {
   color:white;
 }
 
+.third_content{
+  padding-top:40px;
+  padding-bottom:30px;
+  font-size: 25px;
+  color:white;
+}
+
 .third_div{
   height:580px;
   color:black;
+}
+
+.fourth_div{
+  height:1200px;
+  color:white;
+  background-color: black;
 }
 
 .image-popup {
