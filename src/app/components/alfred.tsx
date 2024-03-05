@@ -86,6 +86,7 @@ const ChatInterface = () => {
           flex-grow: 1;
           padding: 20px;
           overflow-y: auto;
+          text-align: left;
         }
         .message-row {
           display: flex;

@@ -6,7 +6,11 @@ import "../src/app/garage.css";
 const Contact = () => (
   <div>
     <Navigation />
-    <ChatInterface></ChatInterface>
+    <div className="container">
+      <div className="chat-interface">
+        <ChatInterface></ChatInterface>
+      </div>
+    </div>
   </div>
 );
 

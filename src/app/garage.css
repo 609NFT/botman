@@ -10,6 +10,18 @@
   border-radius: 50px;*/
 }
 
+.container {
+  display: flex;
+  justify-content: flex-start; /* Aligns children to the start of the container */
+  width: 100%;
+}
+
+.chat-interface {
+  width: 50%; /* 2/3rds of the container */
+  margin: 0 auto; /* Centers the chat interface in the available space */
+  /* Additional styling for your chat interface */
+}
+
 .second_div{
   height:1200px;
   background:#000000;
@@ -89,6 +101,13 @@ h2, p {
 .triangle{
   display: none;
 }
+
+.chat-interface {
+  width: 100% !important; /* 2/3rds of the container */
+  margin: 0 auto; /* Centers the chat interface in the available space */
+  /* Additional styling for your chat interface */
+}
+
 #dexscreener-embed{
   position: relative;
     width: 90%;
