@@ -6,12 +6,10 @@ const { OpenAI } = require('openai');
 // Initialize Express application
 const app = express();
 
-const allowedOrigins = [
-  'https://the-botman-dfb7af4dfa1b.herokuapp.com',
-  'http://localhost:3001',
-  'http://localhost:3000',
-  'https://thebotman.xyz/' // Example for local development
-];
+const allowedOrigins = {
+  origin: 'https://thebotman.xyz',
+  optionsSuccessStatus: 200
+};
 
 // Apply middleware
 app.use(cors({
@@ -25,7 +23,7 @@ const openai = new OpenAI({
 });
 
 // Define POST endpoint to handle chat interactions
-app.post('/chat', async (req, res) => {
+app.post('/chat', cors(allowedOrigins), async (req, res) => {
   const { user_message } = req.body;
   if (typeof user_message !== 'string' || user_message.trim() === '') {
     return res.status(400).json({ error: "Invalid request: 'user_message' is required and must be a non-empty string." });
