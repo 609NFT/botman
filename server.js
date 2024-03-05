@@ -45,8 +45,8 @@ app.post('/chat', async (req, res) => {
   }
 });
 
-// Server listens on port 3000
-const port = process.env.PORT || 3000;
+// Server listens on the port provided by Heroku or 3000 if there's none (for local development)
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${port}`);
+    console.log(`Server listening on port ${port}`);
 });
