@@ -28,6 +28,8 @@
         "cors": "^2.8.5",
         "dotenv": "^16.4.5",
         "express": "^4.18.3",
+        "foreman": "^3.0.1",
+        "heroku-client": "^3.1.0",
         "html2canvas": "^1.4.1",
         "next": "^14.1.0",
         "openai": "^4.28.4",
@@ -52,7 +54,7 @@
         "tailwindcss": "^3.4.1",
         "typescript": "^5.3.3"
     },
-    "engines":{
+    "engines": {
         "node": "^18.17.0"
     }
 }

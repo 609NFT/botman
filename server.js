@@ -1,10 +1,7 @@
 const express = require('express');
-const dotenv = require('dotenv');
+require('dotenv').config();
 const cors = require('cors');
 const { OpenAI } = require('openai');
-
-// Load environment variables from .env file
-dotenv.config();
 
 // Initialize Express application
 const app = express();
@@ -48,10 +45,8 @@ app.post('/chat', async (req, res) => {
   }
 });
 
-// Server listens on port 3001
-const port = 3001;
+// Server listens on port 3000
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
 });
-
-console.log('server');
