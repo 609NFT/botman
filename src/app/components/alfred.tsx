@@ -2,7 +2,10 @@ import React, { useState } from "react";
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
-    { sender: "assistant", content: "Hi there! How can I help you today?" },
+    {
+      sender: "assistant",
+      content: "Welcome to the garage, Botman. How can I help you today?",
+    },
   ]);
   const [userMessage, setUserMessage] = useState("");
 
