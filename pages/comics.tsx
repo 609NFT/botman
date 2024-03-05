@@ -15,7 +15,7 @@ export default function About() {
         rel="stylesheet"
       ></link>
       <Navigation></Navigation>
-      <AudioToggle></AudioToggle>
+      {/*<AudioToggle></AudioToggle>*/}
       <TabContainer>
         <Row className="about_row align-items-center">
           <Col sm={6}>
