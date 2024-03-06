@@ -101,6 +101,10 @@ h2, p {
 .third_div{
   height:640px !important;
 }
+.twitter-timeline.twitter-timeline-rendered {
+  margin-right: 5%;
+  margin-left: 5%;
+}
 }
 
 #dexscreener-embed{
