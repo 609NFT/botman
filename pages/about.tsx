@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "../src/app/components/navigation";
 import "../src/app/globals.css";
+import Navigation from "../src/app/components/navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, TabContainer } from "react-bootstrap";
 import Image from "react-bootstrap";

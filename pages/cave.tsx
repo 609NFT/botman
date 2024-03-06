@@ -1,10 +1,10 @@
 import React from "react";
+import "../src/app/cave.css";
 import Navigation from "../src/app/components/navigation";
 import GameModal from "@/app/components/capedCrusader";
 import RacerModal from "@/app/components/racer";
 import Game1Modal from "@/app/components/game1";
 import { Row, Col, TabContainer } from "react-bootstrap";
-import "../src/app/cave.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Play() {
