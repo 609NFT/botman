@@ -143,7 +143,7 @@ export default function Home() {
           className="button"
           href="https://jup.ag/swap/SOL-BOTMAN_2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
         >
-          Join the Cave
+          jion teh cve
         </Button>
       </div>
       <Image
@@ -157,13 +157,13 @@ export default function Home() {
       />
       <div className="second_div">
         <div className="second_content">
-          Botman&apos;s Quest for a Better World.
+          Botman&apos;s kwesst fur a Betur Wurld.
         </div>
         {/*<div className="footer">botman live normul life.</div>*/}
         <div>
           <Slider></Slider>
           <button className="button2" onClick={openModal}>
-            Create your own
+            Krete yor oan meem
           </button>
           <Modal isOpen={isModalOpen} onClose={closeModal}>
             <MemeGenerator />
@@ -204,7 +204,7 @@ export default function Home() {
         className="triangle"
       />
       <div className="fourth_div">
-        <div className="third_content">Spread the Botman Vibes on CT.</div>
+        <div className="third_content">Spred teh Botman Vybes on CT.</div>
         {/*<div className="footer">botman live normul life.</div>*/}
         <div>
           <TwitterTimeline></TwitterTimeline>
