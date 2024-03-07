@@ -23,27 +23,27 @@ const Navigation = () => {
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
           <Link href="/about" passHref>
-            <span>abuot</span>
+            <span>About</span>
           </Link>
         </li>
         <li>
           <Link href="/characters" passHref>
-            <span>charactres</span>
+            <span>Characters</span>
           </Link>
         </li>
         <li>
           <Link href="/comics" passHref>
-            <span>cimocs</span>
+            <span>Comics</span>
           </Link>
         </li>
         <li>
           <Link href="/cave" passHref>
-            <span>caev</span>
+            <span>Cave</span>
           </Link>
         </li>
         <li>
           <Link href="/garage" passHref>
-            <span>garaeg</span>
+            <span>Garage</span>
           </Link>
         </li>
         <li>
