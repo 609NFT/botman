@@ -18,25 +18,17 @@ export default function Play() {
       <Navigation></Navigation>
       <TabContainer>
         <Row className="games">
-          <Col sm={4}>
+          <Col sm={3}>
             <GameModal></GameModal>
           </Col>
-          <Col sm={4}>
+          <Col sm={3}>
             <RacerModal></RacerModal>
           </Col>
-          <Col sm={4}>
+          <Col sm={3}>
             <Game1Modal></Game1Modal>
           </Col>
-        </Row>
-        <Row className="games">
-          <Col sm={4}>
+          <Col sm={3}>
             <Game2Modal></Game2Modal>
-          </Col>
-          <Col sm={4}>
-            <div></div>
-          </Col>
-          <Col sm={4}>
-            <div></div>
           </Col>
         </Row>
       </TabContainer>

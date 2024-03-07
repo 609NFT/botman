@@ -15,7 +15,7 @@ function GameModal() {
         Play Botman caped crusader
   </button>*/}
       <a onClick={openModal}>
-        <img src="/images/crusader.png" className="play_crusader"></img>
+        <img src="/images/crusader.svg" className="play_crusader"></img>
         <br></br>
         <label>Caped Crusader</label>
       </a>

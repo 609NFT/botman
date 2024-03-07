@@ -15,11 +15,10 @@ function Game1Modal() {
         Play Botman caped crusader
   </button>*/}
       <a onClick={openModal}>
-        <img src="/images/crusader.png" className="play_crusader"></img>
+        <img src="/images/crusader.svg" className="play_crusader"></img>
         <br></br>
         <label>Botman vs. Spoody</label>
       </a>
-
       {showModal && (
         <div
           style={{

@@ -14,12 +14,12 @@ function RacerModal() {
       {/*<button className="button2" onClick={openModal}>
         Play Botman caped crusader
   </button>*/}
+
       <a onClick={openModal}>
-        <img src="/images/crusader.png" className="play_crusader"></img>
+        <img src="/images/crusader.svg" className="play_crusader"></img>
         <br></br>
         <label>Botman vs. Zombies</label>
       </a>
-
       {showModal && (
         <div
           style={{
