@@ -143,7 +143,7 @@ export default function Home() {
           className="button"
           href="https://jup.ag/swap/SOL-BOTMAN_2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
         >
-          jion teh cve
+          joyn teh caev
         </Button>
       </div>
       <Image
