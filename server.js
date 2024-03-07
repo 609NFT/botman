@@ -7,7 +7,7 @@ const { OpenAI } = require('openai');
 const app = express();
 
 const allowedOrigins = {
-  origin: 'https://thebotman.xyz',
+  origin: ['https://thebotman.xyz','http://localhost:3000'],
   optionsSuccessStatus: 200
 };
 

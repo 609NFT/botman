@@ -4,7 +4,7 @@ const ChatInterface = () => {
   const [messages, setMessages] = useState([
     {
       sender: "assistant",
-      content: "Welcome to the garage, Botman. How can I help you today?",
+      content: "Welcume to tha garaeg, Botman. Houw kan I halp yu todai?",
     },
   ]);
   const [userMessage, setUserMessage] = useState("");
@@ -17,7 +17,6 @@ const ChatInterface = () => {
       ...messages,
       { sender: "user", content: userMessage },
     ]);
-
     try {
       const response = await fetch(
         "https://the-botman-dfb7af4dfa1b.herokuapp.com/chat",
