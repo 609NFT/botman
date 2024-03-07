@@ -4,10 +4,11 @@ const ChatInterface = () => {
   const [messages, setMessages] = useState([
     {
       sender: "assistant",
-      content: "Welcume to tha garaeg, Botman. Houw kan I halp yu todai?",
+      content: "Welcume to tha garage, Botman. Houw kan I halp yu todai?",
     },
   ]);
   const [userMessage, setUserMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false); // New state to track loading
 
   const handleSendMessage = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -17,6 +18,8 @@ const ChatInterface = () => {
       ...messages,
       { sender: "user", content: userMessage },
     ]);
+    setUserMessage("");
+    setIsLoading(true); // Start loading
     try {
       const response = await fetch(
         "https://the-botman-dfb7af4dfa1b.herokuapp.com/chat",
@@ -38,9 +41,9 @@ const ChatInterface = () => {
       ]);
     } catch (error) {
       console.error("Failed to fetch:", error);
+    } finally {
+      setIsLoading(false); // End loading
     }
-
-    setUserMessage("");
   };
 
   return (
@@ -60,6 +63,16 @@ const ChatInterface = () => {
             </div>
           </div>
         ))}
+        {isLoading && ( // Display "Thinking..." when loading
+          <div className="message-row assistant-row">
+            <img
+              src="/images/alfred_pfp.png"
+              alt="Assistant"
+              className="profile-pic"
+            />
+            <div className="message-bubble assistant">Hmmmmm...</div>
+          </div>
+        )}
       </div>
       <form onSubmit={handleSendMessage} className="message-form">
         <input
