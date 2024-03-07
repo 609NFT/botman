@@ -121,6 +121,20 @@ export default function Home() {
               />
             </a>
           </Tooltip>
+          <Tooltip title="RugCheck" placement="top">
+            <a
+              target="_blank"
+              href="https://rugcheck.xyz/tokens/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
+            >
+              <Image
+                src="/images/rugcheck.png"
+                alt="rugcheck"
+                className="twitter"
+                width={30}
+                height={30}
+              />
+            </a>
+          </Tooltip>
         </div>
       </div>
       <div className="buttonDIV">
