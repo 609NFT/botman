@@ -12,11 +12,11 @@ export default function Slider() {
     // Your images array...
     {
       id: 1,
-      url: "https://i.postimg.cc/ydKK0hWN/coinbase.jpg",
+      url: "https://i.postimg.cc/G2gDjLRY/photo-2024-03-07-18-50-54.jpg",
     },
     {
       id: 2,
-      url: "https://i.postimg.cc/tCbkKr6w/photo-2024-03-05-16-56-59.jpg",
+      url: "https://i.postimg.cc/dVQqJ8rs/photo-2024-03-07-10-48-16.jpg",
     },
     {
       id: 3,
@@ -81,6 +81,10 @@ export default function Slider() {
     {
       id: 18,
       url: "https://i.postimg.cc/x1hrjKFN/photo-2024-03-03-18-00-56.jpg",
+    },
+    {
+      id: 19,
+      url: "https://i.postimg.cc/tCbkKr6w/photo-2024-03-05-16-56-59.jpg",
     },
   ];
 
