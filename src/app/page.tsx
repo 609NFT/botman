@@ -141,7 +141,7 @@ export default function Home() {
         <Button
           target="_blank"
           className="button"
-          href="https://jup.ag/swap/SOL-BOTMAN_2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
+          href="https://jup.ag/swap/SOL-BOTMAN"
         >
           Join The Cave
         </Button>
