@@ -170,6 +170,10 @@ h2, p {
   cursor: pointer;
 }
 
+.tooltip.bs-tooltip-bottom {
+  color: #EED148;
+}
+
 /* Navigation.css - Add or adjust these styles in your existing CSS file */
 @media (max-width: 768px) {
   .navbar {
