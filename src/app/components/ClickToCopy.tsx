@@ -8,7 +8,9 @@ const ClickToCopy: React.FC<ClickToCopyProps> = ({ text }) => {
   const copyTextToClipboard = async () => {
     if ("clipboard" in navigator) {
       try {
-        await navigator.clipboard.writeText(text);
+        await navigator.clipboard.writeText(
+          "2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
+        );
         alert("CA Copied to Clipboard. You're ready to buy Botman.");
       } catch (err) {
         console.error("Failed to copy text: ", err);
@@ -30,7 +32,7 @@ const ClickToCopy: React.FC<ClickToCopyProps> = ({ text }) => {
 
   return (
     <div onClick={copyTextToClipboard} style={{ cursor: "pointer" }}>
-      {text}
+      CA: 2adqrK24G2...AQx7Y1kSSK
     </div>
   );
 };
