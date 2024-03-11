@@ -5,18 +5,28 @@ const FlashlightEffect: React.FC = () => {
     x: -100,
     y: -100,
   });
-
-  // Function to detect mobile devices
-  const isMobileDevice = () => {
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    );
-  };
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Do not apply the effect if on a mobile device
-    if (isMobileDevice()) {
-      return;
+    // Function to check if the screen width indicates a mobile device
+    const checkIfMobile = () => {
+      const maxWidthForMobile = 768; // Adjust as needed
+      setIsMobile(window.innerWidth <= maxWidthForMobile);
+    };
+
+    // Initial check
+    checkIfMobile();
+
+    // Add event listener for resizing
+    window.addEventListener("resize", checkIfMobile);
+
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("resize", checkIfMobile);
+  }, []);
+
+  useEffect(() => {
+    if (isMobile) {
+      return; // Do not apply the effect if detected as mobile
     }
 
     const updateMousePosition = (event: MouseEvent) => {
@@ -25,27 +35,22 @@ const FlashlightEffect: React.FC = () => {
 
     window.addEventListener("mousemove", updateMousePosition);
 
-    return () => {
-      window.removeEventListener("mousemove", updateMousePosition);
-    };
-  }, []);
+    return () => window.removeEventListener("mousemove", updateMousePosition);
+  }, [isMobile]);
 
-  const overlayStyle: React.CSSProperties = isMobileDevice()
-    ? {}
-    : {
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: "100vw",
-        height: "100vh",
-        pointerEvents: "none",
-        background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, transparent 150px, rgba(0,0,0,0.75) 300px)`,
-      };
-
-  // Do not render the component if on a mobile device
-  if (isMobileDevice()) {
-    return null;
+  if (isMobile) {
+    return null; // Do not render the component for mobile devices
   }
+
+  const overlayStyle: React.CSSProperties = {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100vw",
+    height: "100vh",
+    pointerEvents: "none",
+    background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, transparent 150px, rgba(0,0,0,0.75) 300px)`,
+  };
 
   return <div style={overlayStyle} />;
 };
