@@ -170,6 +170,14 @@ h2, p {
   cursor: pointer;
 }
 
+.header_message{
+  color:white;
+  margin-top:30px;
+}
+.header_message_2{
+  margin-top:10px;
+}
+
 .tooltip.bs-tooltip-bottom {
   color: #EED148;
 }

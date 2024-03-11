@@ -137,6 +137,10 @@ export default function Home() {
           </Tooltip>
         </div>
       </div>
+      <div className="header_message">
+        Community Takeover | Contract Renounced | Liquidity Burned
+      </div>
+      <div className="header_message_2">Supply: 1,000,000</div>
       <div className="buttonDIV">
         <Button
           target="_blank"
