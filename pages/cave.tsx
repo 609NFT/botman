@@ -33,7 +33,7 @@ export default function Play() {
           </Col>
         </Row>
       </TabContainer>
-      <Footer></Footer>
+      {/*<Footer></Footer>*/}
     </div>
   );
 }

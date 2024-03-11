@@ -14,7 +14,7 @@ const Contact = () => (
         <ChatInterface></ChatInterface>
       </div>
     </div>
-    <Footer></Footer>
+    {/*<Footer></Footer>*/}
   </div>
 );
 
