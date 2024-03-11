@@ -180,6 +180,11 @@ h2, p {
     flex-wrap: wrap;
   }
 
+  .tooltip.bs-tooltip-bottom {
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
   .hamburger {
     display: block;
     margin-left: auto;
