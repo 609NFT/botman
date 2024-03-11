@@ -539,6 +539,7 @@ img{
 .about_row{
   margin: 30px !important;
   margin-top: 100px !important;
+  min-height:410px;
 }
 
 .about_header{

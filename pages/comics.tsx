@@ -7,6 +7,7 @@ import DownloadPDFButton from "@/app/components/DownloadPDFButton";
 import Image from "react-bootstrap";
 import AudioToggle from "@/app/components/audio";
 import Footer from "@/app/components/footer";
+import FlashlightEffect from "@/app/components/FlashlightEffect";
 
 export default function About() {
   return (
@@ -15,6 +16,7 @@ export default function About() {
         href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
         rel="stylesheet"
       ></link>
+      <FlashlightEffect></FlashlightEffect>
       <Navigation></Navigation>
       {/*<AudioToggle></AudioToggle>*/}
       <TabContainer>

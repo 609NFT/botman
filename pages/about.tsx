@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, TabContainer } from "react-bootstrap";
 import Image from "react-bootstrap";
 import Footer from "@/app/components/footer";
+import FlashlightEffect from "@/app/components/FlashlightEffect";
 
 export default function About() {
   return (
@@ -13,8 +14,8 @@ export default function About() {
         href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
         rel="stylesheet"
       ></link>
+      <FlashlightEffect></FlashlightEffect>
       <Navigation></Navigation>
-
       <TabContainer>
         <Row className="about_row align-items-center">
           <Col sm={6}>

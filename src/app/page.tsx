@@ -13,6 +13,7 @@ import SocialsSlider from "./components/socialSlider";
 import Slider2 from "./components/slider2";
 import TwitterTimeline from "./components/TwitterTimeline";
 import Footer from "./components/footer";
+import FlashlightEffect from "./components/FlashlightEffect";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,6 +30,7 @@ export default function Home() {
   };
   return (
     <div>
+      <FlashlightEffect></FlashlightEffect>
       <Navigation></Navigation>
       <SocialsSlider></SocialsSlider>
       <div className="the_socials">

@@ -6,6 +6,7 @@ import Navigation from "@/app/components/navigation";
 import Character from "@/app/components/character"; // Adjust the import path as necessary
 import { Nav } from "react-bootstrap";
 import Footer from "@/app/components/footer";
+import FlashlightEffect from "@/app/components/FlashlightEffect";
 
 const CharactersPage = () => (
   <div>
@@ -13,6 +14,7 @@ const CharactersPage = () => (
       href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
       rel="stylesheet"
     ></link>
+    <FlashlightEffect></FlashlightEffect>
     <Navigation></Navigation>
     <div className="characters-container">
       {characters.map((character) => (
