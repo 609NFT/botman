@@ -1,37 +1,51 @@
 import React, { useState, useEffect } from "react";
 
 const FlashlightEffect: React.FC = () => {
-  // Using useState to keep track of the mouse position
   const [mousePosition, setMousePosition] = useState<{ x: number; y: number }>({
     x: -100,
     y: -100,
   });
 
+  // Function to detect mobile devices
+  const isMobileDevice = () => {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    );
+  };
+
   useEffect(() => {
-    // Define the event listener
+    // Do not apply the effect if on a mobile device
+    if (isMobileDevice()) {
+      return;
+    }
+
     const updateMousePosition = (event: MouseEvent) => {
       setMousePosition({ x: event.clientX, y: event.clientY });
     };
 
-    // Attach the event listener to the window object
     window.addEventListener("mousemove", updateMousePosition);
 
-    // Cleanup function to remove the event listener
     return () => {
       window.removeEventListener("mousemove", updateMousePosition);
     };
   }, []);
 
-  // Style for the flashlight overlay
-  const overlayStyle: React.CSSProperties = {
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100vw",
-    height: "100vh",
-    pointerEvents: "none",
-    background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, transparent 150px, rgba(0,0,0,0.75) 300px)`,
-  };
+  const overlayStyle: React.CSSProperties = isMobileDevice()
+    ? {}
+    : {
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100vw",
+        height: "100vh",
+        pointerEvents: "none",
+        background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, transparent 150px, rgba(0,0,0,0.75) 300px)`,
+      };
+
+  // Do not render the component if on a mobile device
+  if (isMobileDevice()) {
+    return null;
+  }
 
   return <div style={overlayStyle} />;
 };
