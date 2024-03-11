@@ -194,8 +194,7 @@ h2, p {
   }
 
   .tooltip.bs-tooltip-bottom {
-    margin-left: 20px;
-    margin-top: 13px;
+    margin:auto;
 }
 
   .hamburger {

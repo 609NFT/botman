@@ -12,6 +12,7 @@ import Navigation from "./components/navigation";
 import SocialsSlider from "./components/socialSlider";
 import Slider2 from "./components/slider2";
 import TwitterTimeline from "./components/TwitterTimeline";
+import Footer from "./components/footer";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -213,6 +214,7 @@ export default function Home() {
         </div>
       </div>
       {/*<div className="footer_div">Copyright © Botman 2024</div>*/}
+      <Footer></Footer>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import Game1Modal from "@/app/components/game1";
 import Game2Modal from "@/app/components/game2";
 import { Row, Col, TabContainer } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "@/app/components/footer";
 
 export default function Play() {
   return (
@@ -32,6 +33,7 @@ export default function Play() {
           </Col>
         </Row>
       </TabContainer>
+      <Footer></Footer>
     </div>
   );
 }

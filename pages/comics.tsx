@@ -6,6 +6,7 @@ import { TabContainer, Row, Col } from "react-bootstrap";
 import DownloadPDFButton from "@/app/components/DownloadPDFButton";
 import Image from "react-bootstrap";
 import AudioToggle from "@/app/components/audio";
+import Footer from "@/app/components/footer";
 
 export default function About() {
   return (
@@ -35,6 +36,7 @@ export default function About() {
           </Col>
         </Row>
       </TabContainer>
+      <Footer></Footer>
     </div>
   );
 }

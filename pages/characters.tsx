@@ -5,6 +5,7 @@ import characters from "../src/data/charactersData";
 import Navigation from "@/app/components/navigation";
 import Character from "@/app/components/character"; // Adjust the import path as necessary
 import { Nav } from "react-bootstrap";
+import Footer from "@/app/components/footer";
 
 const CharactersPage = () => (
   <div>
@@ -18,6 +19,7 @@ const CharactersPage = () => (
         <Character key={character.name} {...character} />
       ))}
     </div>
+    <Footer></Footer>
   </div>
 );
 

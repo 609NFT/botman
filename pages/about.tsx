@@ -4,6 +4,7 @@ import Navigation from "../src/app/components/navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, TabContainer } from "react-bootstrap";
 import Image from "react-bootstrap";
+import Footer from "@/app/components/footer";
 
 export default function About() {
   return (
@@ -187,6 +188,7 @@ export default function About() {
           </Col>
         </Row>
       </TabContainer>
+      <Footer></Footer>
     </div>
   );
 }
