@@ -11,8 +11,12 @@ export default function Slider() {
   const images = [
     // Your images array...
     {
-      id: 1,
+      id: 0,
       url: "https://i.postimg.cc/G2gDjLRY/photo-2024-03-07-18-50-54.jpg",
+    },
+    {
+      id: 1,
+      url: "https://i.postimg.cc/VL7HqfZD/photo-2024-03-10-09-57-38.jpg",
     },
     {
       id: 2,
@@ -89,6 +93,14 @@ export default function Slider() {
     {
       id: 20,
       url: "https://i.postimg.cc/44QdNcKr/photo-2024-02-08-16-19-53.jpg",
+    },
+    {
+      id: 21,
+      url: "https://i.postimg.cc/SsMJrxG8/photo-2024-03-11-11-09-27.jpg",
+    },
+    {
+      id: 22,
+      url: "https://i.postimg.cc/3JKxyBz2/photo-2024-03-11-11-09-02.jpg",
     },
   ];
 
