@@ -5,8 +5,12 @@ import ChatInterface from "@/app/components/alfred";
 import Footer from "@/app/components/footer";
 import FlashlightEffect from "@/app/components/FlashlightEffect";
 
-const Contact = () => (
+const Garage = () => (
   <div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    ></link>
     <FlashlightEffect></FlashlightEffect>
     <Navigation />
     <div className="container">
@@ -18,4 +22,4 @@ const Contact = () => (
   </div>
 );
 
-export default Contact;
+export default Garage;
