@@ -89,6 +89,9 @@ h2, p {
 .triangle{
   display: none;
 }
+.tooltip.bs-tooltip-bottom {
+  margin:auto;
+}
 #dexscreener-embed{
   position: relative;
     width: 90%;
@@ -411,6 +414,19 @@ h2, p {
   height:100px !important;
   margin-top:20px;
   cursor: pointer;
+}
+
+.header_message{
+  color:white;
+  margin-top:20px;
+}
+.header_message_2{
+  margin-top:10px;
+  color:white;
+}
+
+.tooltip.bs-tooltip-bottom {
+  color: #EED148;
 }
 
 .games{

@@ -97,9 +97,25 @@ h2, p {
   margin: 10px;
 }
 
+.header_message{
+  color:white;
+  margin-top:20px;
+}
+.header_message_2{
+  margin-top:10px;
+  color:white;
+}
+
+.tooltip.bs-tooltip-bottom {
+  color: #EED148;
+}
+
 @media (max-width: 768px) {
 .triangle{
   display: none;
+}
+.tooltip.bs-tooltip-bottom {
+  margin:auto;
 }
 
 .chat-interface {
