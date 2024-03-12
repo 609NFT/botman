@@ -3,9 +3,10 @@ import "../src/app/globals.css";
 import Navigation from "../src/app/components/navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, TabContainer } from "react-bootstrap";
-import Image from "react-bootstrap";
 import Footer from "@/app/components/footer";
 import FlashlightEffect from "@/app/components/FlashlightEffect";
+import Image from "react-bootstrap";
+import Tooltip from "@mui/material/Tooltip";
 
 export default function About() {
   return (

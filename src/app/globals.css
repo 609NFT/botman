@@ -179,7 +179,7 @@ h2, p {
   color:white;
 }
 
-.tooltip.bs-tooltip-bottom {
+.clickCopy {
   color: #EED148;
 }
 
@@ -193,7 +193,7 @@ h2, p {
     flex-wrap: wrap;
   }
 
-  .tooltip.bs-tooltip-bottom {
+  .clickCopy {
     margin:auto;
 }
 

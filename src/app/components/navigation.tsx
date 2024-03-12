@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import WalletConnectionComponent from "./WalletConnection";
 import { Button } from "react-bootstrap";
-import { Tooltip } from "react-bootstrap";
 import ClickToCopy from "./ClickToCopy";
 
 const Navigation = () => {
@@ -19,11 +18,9 @@ const Navigation = () => {
           <img src="/images/botman.svg" alt="Logo" className="logo" />
         </Link>
       </div>
-      <Tooltip title="Click to Copy" placement="bottom">
-        <div>
-          <ClickToCopy text="CA: 2adqrK24G2...AQx7Y1kSSK" />
-        </div>
-      </Tooltip>
+      <div className="clickCopy">
+        <ClickToCopy text="CA: 2adqrK24G2...AQx7Y1kSSK" />
+      </div>
       <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         &#9776;
       </button>

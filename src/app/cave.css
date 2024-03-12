@@ -89,7 +89,7 @@ h2, p {
 .triangle{
   display: none;
 }
-.tooltip.bs-tooltip-bottom {
+.clickCopy {
   margin:auto;
 }
 #dexscreener-embed{
@@ -425,7 +425,7 @@ h2, p {
   color:white;
 }
 
-.tooltip.bs-tooltip-bottom {
+.clickCopy {
   color: #EED148;
 }
 
