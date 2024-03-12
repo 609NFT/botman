@@ -16,7 +16,7 @@ export default function About() {
         href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
         rel="stylesheet"
       ></link>
-      <FlashlightEffect></FlashlightEffect>
+      {/*<FlashlightEffect></FlashlightEffect>*/}
       <Navigation></Navigation>
       {/*<AudioToggle></AudioToggle>*/}
       <TabContainer>

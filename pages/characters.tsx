@@ -14,7 +14,7 @@ const CharactersPage = () => (
       href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
       rel="stylesheet"
     ></link>
-    <FlashlightEffect></FlashlightEffect>
+    {/*<FlashlightEffect></FlashlightEffect>*/}
     <Navigation></Navigation>
     <div className="characters-container">
       {characters.map((character) => (

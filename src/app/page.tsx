@@ -30,7 +30,7 @@ export default function Home() {
   };
   return (
     <div>
-      <FlashlightEffect></FlashlightEffect>
+      {/*<FlashlightEffect></FlashlightEffect>*/}
       <Navigation></Navigation>
       <SocialsSlider></SocialsSlider>
       <div className="the_socials">
