@@ -77,6 +77,35 @@ export default function Home() {
               />
             </a>
           </Tooltip>
+          <Tooltip title="Solscan" placement="top">
+            <a
+              target="_blank"
+              href="https://solscan.io/token/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
+            >
+              <Image
+                src="/images/solscan.png"
+                alt="solscan"
+                className="twitter"
+                width={30}
+                height={30}
+              />
+            </a>
+          </Tooltip>
+          <Tooltip title="RugCheck" placement="top">
+            <a
+              target="_blank"
+              href="https://rugcheck.xyz/tokens/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
+            >
+              <Image
+                src="/images/rugcheck.png"
+                alt="rugcheck"
+                className="twitter"
+                width={30}
+                height={30}
+              />
+            </a>
+          </Tooltip>
+          <br></br>
           <Tooltip title="Instagram" placement="top">
             <a target="_blank" href="https://www.instagram.com/botmanonsolana/">
               <Image
@@ -115,34 +144,6 @@ export default function Home() {
               <Image
                 src="/images/telegram.png"
                 alt="telegram"
-                className="twitter"
-                width={30}
-                height={30}
-              />
-            </a>
-          </Tooltip>
-          <Tooltip title="Solscan" placement="top">
-            <a
-              target="_blank"
-              href="https://solscan.io/token/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
-            >
-              <Image
-                src="/images/solscan.png"
-                alt="solscan"
-                className="twitter"
-                width={30}
-                height={30}
-              />
-            </a>
-          </Tooltip>
-          <Tooltip title="RugCheck" placement="top">
-            <a
-              target="_blank"
-              href="https://rugcheck.xyz/tokens/2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK"
-            >
-              <Image
-                src="/images/rugcheck.png"
-                alt="rugcheck"
                 className="twitter"
                 width={30}
                 height={30}

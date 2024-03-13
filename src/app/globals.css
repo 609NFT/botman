@@ -172,7 +172,7 @@ h2, p {
 
 .header_message{
   color:white;
-  margin-top:20px;
+  margin-top:10px;
 }
 .header_message_2{
   margin-top:10px;
@@ -325,6 +325,7 @@ h2, p {
 .twitter{
   margin-left: 3px;
   margin-right: 3px;
+  margin-bottom:10px;
   border:3px solid white;
   border-radius:15px;
   height:40px;
