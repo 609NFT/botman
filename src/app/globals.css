@@ -170,6 +170,59 @@ h2, p {
   cursor: pointer;
 }
 
+/* LOADING */
+.loading-body{
+  background: url("/images/web_bg.png") no-repeat center center fixed;
+  font-family: 'Bangers', system-ui !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  font-size: 2rem; /* Adjust size as needed */
+}
+
+.loading-image {
+  width: 100px;
+  height: auto;
+}
+
+.loading-animation {
+  margin: 20px 0;
+  display:flex;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  background-color: white;
+  border-radius: 50%;
+  animation: fade 1.4s infinite ease-in-out both;
+}
+
+.dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+@keyframes fade {
+  0%, 80%, 100% { opacity: 0; }
+  40% { opacity: 1; }
+}
+
 .header_message{
   color:white;
   margin-top:10px;

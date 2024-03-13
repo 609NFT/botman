@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button, Nav, NavItem, Navbar } from "react-bootstrap";
 import Tooltip from "@mui/material/Tooltip";
 import Slider from "./components/slider";
@@ -14,20 +14,30 @@ import Slider2 from "./components/slider2";
 import TwitterTimeline from "./components/TwitterTimeline";
 import Footer from "./components/footer";
 import FlashlightEffect from "./components/FlashlightEffect";
+import LoadingScreen from "./components/loading";
 
 export default function Home() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Event handler function
-  const handleClick = () => {
-    alert("Coming Soon....");
-  };
+  useEffect(() => {
+    // Simulate fetching data or any asynchronous task
+    setTimeout(() => {
+      setIsLoading(false); // Set loading to false once data is loaded or specific task is completed
+    }, 6000); // Adjust time or condition as necessary
+  }, []);
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => {
     console.log("Closing modal");
     setIsModalOpen(false);
   };
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
+
   return (
     <div>
       {/*<FlashlightEffect></FlashlightEffect>*/}
