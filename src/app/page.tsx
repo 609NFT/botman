@@ -114,7 +114,7 @@ export default function Home() {
             <a target="_blank" href="https://t.me/botmancommunityportal">
               <Image
                 src="/images/telegram.png"
-                alt="tg"
+                alt="telegram"
                 className="twitter"
                 width={30}
                 height={30}
