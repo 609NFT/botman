@@ -8,8 +8,6 @@ function LoadingScreen() {
     <div className="loading-body">
       <div className="loading-container">
         {/* Display the loading image */}
-        <img className="loading-image" src={finishedImage} alt="Loading" />
-
         <p>Website Loading</p>
         <div className="loading-animation">
           <div className="dot"></div>
