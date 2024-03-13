@@ -88,6 +88,17 @@ export default function Home() {
               />
             </a>
           </Tooltip>
+          <Tooltip title="Tiktok" placement="top">
+            <a target="_blank" href="https://www.tiktok.com/@botmanonsol">
+              <Image
+                src="/images/tiktok.png"
+                alt="tiktok"
+                className="twitter"
+                width={30}
+                height={30}
+              />
+            </a>
+          </Tooltip>
           <Tooltip title="Twitter" placement="top">
             <a target="_blank" href="https://twitter.com/Botmansolana">
               <Image
@@ -141,7 +152,7 @@ export default function Home() {
         </div>
       </div>
       <div className="header_message">
-        Community Takeover | Contract Renounced | Liquidity Burned
+        Community Managed | Contract Renounced | Liquidity Burned
       </div>
       <div className="header_message_2">Supply: 1,000,000</div>
       <div className="buttonDIV">
