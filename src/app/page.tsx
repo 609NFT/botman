@@ -17,14 +17,14 @@ import FlashlightEffect from "./components/FlashlightEffect";
 import LoadingScreen from "./components/loading";
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
+  /*const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate fetching data or any asynchronous task
+
     setTimeout(() => {
-      setIsLoading(false); // Set loading to false once data is loaded or specific task is completed
-    }, 6000); // Adjust time or condition as necessary
-  }, []);
+      setIsLoading(false);
+    }, 6000);
+  }, []);*/
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -34,9 +34,9 @@ export default function Home() {
     setIsModalOpen(false);
   };
 
-  if (isLoading) {
+  /*if (isLoading) {
     return <LoadingScreen />;
-  }
+  }*/
 
   return (
     <div>
