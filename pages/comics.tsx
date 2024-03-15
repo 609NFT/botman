@@ -38,7 +38,7 @@ export default function About() {
           </Col>
         </Row>
       </TabContainer>
-      <Footer></Footer>
+      {/*<Footer></Footer>*/}
     </div>
   );
 }
