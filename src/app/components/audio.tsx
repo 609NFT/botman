@@ -7,7 +7,7 @@ const AudioToggle = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    const audio = new Audio("/audio/batman_theme.mp3"); // Adjust the path as necessary
+    const audio = new Audio("/audio/chaos.mp3"); // Adjust the path as necessary
     // Function to play or pause the audio based on isPlaying state
     const togglePlayback = () => {
       if (isPlaying) {

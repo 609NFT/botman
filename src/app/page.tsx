@@ -15,6 +15,7 @@ import TwitterTimeline from "./components/TwitterTimeline";
 import Footer from "./components/footer";
 import FlashlightEffect from "./components/FlashlightEffect";
 import LoadingScreen from "./components/loading";
+import AudioToggle from "./components/audio";
 
 export default function Home() {
   /*const [isLoading, setIsLoading] = useState(true);
@@ -39,6 +40,7 @@ export default function Home() {
 
   return (
     <div>
+      <AudioToggle></AudioToggle>
       {/*<FlashlightEffect></FlashlightEffect>*/}
       <Navigation></Navigation>
       <SocialsSlider></SocialsSlider>
@@ -217,7 +219,7 @@ export default function Home() {
           <div id="dexscreener-embed">
             <iframe src="https://dexscreener.com/solana/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR?embed=1&theme=dark&trades=0&info=0"></iframe>
           </div>
-          <SolPrice></SolPrice>
+          {/*<SolPrice></SolPrice>*/}
         </div>
       </div>
       <Image
