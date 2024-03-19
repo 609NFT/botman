@@ -34,6 +34,17 @@ export default function Home() {
     setIsModalOpen(false);
   };
 
+  const handleButtonClick = () => {
+    if (window.Jupiter) {
+      window.Jupiter.init({
+        endpoint: "https://api.mainnet-beta.solana.com",
+      });
+      console.log("Jupiter initialized");
+    } else {
+      console.error("Jupiter is not loaded");
+    }
+  };
+
   /*if (isLoading) {
     return <LoadingScreen />;
   }*/
