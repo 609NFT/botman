@@ -160,6 +160,9 @@ h2, p {
   border:3px solid white;
   border-radius: 15px;
 }
+.balance:hover{
+  cursor: default;
+}
 
 /* Navigation.css */
 .navbar {

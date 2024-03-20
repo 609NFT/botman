@@ -54,7 +54,11 @@ const TokenBalance: React.FC<TokenBalanceProps> = ({ tokenMintAddress }) => {
 
   return (
     <div>
-      {publicKey ? <span>Botman Balance: {newBalance}</span> : <span></span>}
+      {publicKey ? (
+        <span className="balance">Botman Balance: {newBalance}</span>
+      ) : (
+        <span></span>
+      )}
     </div>
   );
 };

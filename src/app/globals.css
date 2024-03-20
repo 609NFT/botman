@@ -131,6 +131,10 @@ h2, p {
   border-radius: 15px;
 }
 
+.balance:hover{
+  cursor: default;
+}
+
 /* Navigation.css */
 .navbar {
   display: flex;
