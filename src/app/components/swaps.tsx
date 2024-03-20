@@ -49,7 +49,8 @@ const TokenBalance: React.FC<TokenBalanceProps> = ({ tokenMintAddress }) => {
   const tokenDecimals = 6;
   const divisor = BigInt(Math.pow(10, tokenDecimals));
   const readableBalance = rawBalance / divisor;
-  const newBalance = readableBalance.toString();
+  const formattedNumber = readableBalance.toLocaleString("en-US");
+  const newBalance = formattedNumber.toString();
 
   return (
     <div>
