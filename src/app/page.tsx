@@ -17,6 +17,12 @@ import FlashlightEffect from "./components/FlashlightEffect";
 import LoadingScreen from "./components/loading";
 import AudioToggle from "./components/audio";
 
+import dynamic from "next/dynamic";
+
+const RainAnimation = dynamic(() => import("./components/rainanimation"), {
+  ssr: false,
+});
+
 export default function Home() {
   /*const [isLoading, setIsLoading] = useState(true);
 
@@ -51,6 +57,7 @@ export default function Home() {
 
   return (
     <div>
+      <RainAnimation></RainAnimation>
       <AudioToggle></AudioToggle>
       {/*<FlashlightEffect></FlashlightEffect>*/}
       <Navigation></Navigation>
