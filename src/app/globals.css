@@ -173,6 +173,8 @@ h2, p {
   background-color: #808080;
   color: white;
   padding: 10px 20px !important;
+  z-index: 2;
+  position: relative;
 }
 
 .logo {
