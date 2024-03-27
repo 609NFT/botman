@@ -106,6 +106,20 @@ export default function Home() {
               />
             </a>
           </Tooltip>
+          <Tooltip title="GeckoTerminal" placement="top">
+            <a
+              target="_blank"
+              href="https://www.geckoterminal.com/solana/pools/AwfcDPH2Jf9KKTz4EnzENwJsxZJq7jyVKz2fGk7yiECR"
+            >
+              <Image
+                src="/images/geckoterminal.png"
+                alt="GeckoTerminal"
+                className="twitter"
+                width={30}
+                height={30}
+              />
+            </a>
+          </Tooltip>
           <Tooltip title="Solscan" placement="top">
             <a
               target="_blank"

@@ -130,11 +130,11 @@ h2, p {
     width: 90%;
     margin-right: 5% !important;
     margin-left: 5% !important;
+    z-index: 2 !important;
+  position: relative !important;
 }
 #dexscreener-embed iframe{
   margin-top:40px;
-  z-index: 2;
-  position: relative;
 }
 .third_div{
   height:640px !important;
@@ -146,10 +146,11 @@ h2, p {
 }
 
 #dexscreener-embed{
-  position: relative;
     /*width: 70%;*/
     margin-right: 15%;
     margin-left: 15%;
+    z-index: 2 !important;
+  position: relative !important;
 }
 
 @media(min-width:1400px){
