@@ -73,6 +73,7 @@ const modalStyle: React.CSSProperties = {
   // Center the modal content vertically and horizontally
   margin: "auto",
   color: "black",
+  zIndex: 1001,
 };
 
 export default Modal;
