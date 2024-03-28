@@ -386,7 +386,7 @@ h2, p {
   height:1200px;
   color:white;
   background-color: black;
-  z-index: 2;
+  z-index: 1;
   position: relative;
 }
 
