@@ -31,6 +31,15 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
+          <Link
+            href="https://www.tensor.trade/trade/botman"
+            target="_blank"
+            passHref
+          >
+            <span>NFT</span>
+          </Link>
+        </li>
+        <li>
           <Link href="/characters" passHref>
             <span>Characters</span>
           </Link>
