@@ -20,7 +20,7 @@ function BotmanPrice() {
       setLoading(true);
       axios
         .get(
-          "https://public-api.birdeye.so/public/price?address=2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK",
+          "https://public-api.birdeye.so/defi/price?address=2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK",
           config
         )
         .then((res) => {

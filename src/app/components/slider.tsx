@@ -12,6 +12,10 @@ export default function Slider() {
     // Your images array...
     {
       id: 0,
+      url: "https://i.postimg.cc/wB76SLJv/photo-2024-05-01-11-57-14.jpg",
+    },
+    {
+      id: 0,
       url: "https://i.postimg.cc/d18By25S/photo-2024-03-26-10-22-40.jpg",
     },
     {
