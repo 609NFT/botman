@@ -26,6 +26,11 @@ const Navigation = () => {
       </button>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
+          <Link href="/ruggers" passHref>
+            <span>Ruggers</span>
+          </Link>
+        </li>
+        <li>
           <Link href="/about" passHref>
             <span>About</span>
           </Link>

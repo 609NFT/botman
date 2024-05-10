@@ -281,7 +281,7 @@ h2, p {
 }
 
 /* Navigation.css - Add or adjust these styles in your existing CSS file */
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .navbar {
     display: flex;
     align-items: flex-start; /* Align items to the start of the navbar */
@@ -380,6 +380,10 @@ h2, p {
 .third_div{
   height:580px;
   color:black;
+}
+
+.ruggers{
+  margin:20px;
 }
 
 .fourth_div{
