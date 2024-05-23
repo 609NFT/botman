@@ -12,6 +12,10 @@ export default function Slider() {
     // Your images array...
     {
       id: 0,
+      url: "https://i.postimg.cc/sgdRX8yh/botman-meme.png",
+    },
+    {
+      id: 0,
       url: "https://i.postimg.cc/wB76SLJv/photo-2024-05-01-11-57-14.jpg",
     },
     {
