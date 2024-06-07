@@ -26,15 +26,20 @@ const Navigation = () => {
       </button>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
+          <Link href="https:app.thebotman.xyz" target="_blank" passHref>
+            <span>BotFi</span>
+          </Link>
+        </li>
+        <li>
           <Link href="/ruggers" passHref>
             <span>Ruggers</span>
           </Link>
         </li>
-        <li>
+        {/*<li>
           <Link href="/about" passHref>
             <span>About</span>
           </Link>
-        </li>
+        </li>*/}
         <li>
           <Link
             href="https://www.tensor.trade/trade/botman"
