@@ -25,11 +25,11 @@ const Navigation = () => {
         &#9776;
       </button>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li>
+        {/*<li>
           <Link href="https:app.thebotman.xyz" target="_blank" passHref>
             <span>BotFi</span>
           </Link>
-        </li>
+        </li>*/}
         <li>
           <Link href="/ruggers" passHref>
             <span>Ruggers</span>
