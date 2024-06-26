@@ -64,11 +64,11 @@ const Navigation = () => {
             <span>Cave</span>
           </Link>
         </li>
-        <li>
+        {/*<li>
           <Link href="/garage" passHref>
             <span>Garage</span>
           </Link>
-        </li>
+        </li>*/}
         <li>
           <WalletConnectionComponent></WalletConnectionComponent>
         </li>
